@@ -1,7 +1,9 @@
 ---
 templateKey: about-page
 title: Týkhe
+image: /img/jumbotron.jpg
 ---
+
 ### sobre
 
 Foi nomeada em referência à Týkhe (pronuncia-se tiquê), deusa da Fortuna, dos bons e maus encontros, que ela distribui arbitrariamente.
