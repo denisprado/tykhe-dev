@@ -1,19 +1,15 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: Týkhe
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### sobre
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Foi nomeada em referência à Týkhe (pronuncia-se tiquê), deusa da Fortuna, dos bons e maus encontros, que ela distribui arbitrariamente.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+É o acaso, a contingência. A ideia que norteia a fundação dessa nova instituição é de que seja um lugar de encontro para aqueles que são movidos por desejo na sua relação com a psicanálise, e que isso possa se inscrever através de um trabalho de pesquisa, ensino e transmissão.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+Jacques Lacan fez referência a esse termo no Seminário, livro 11, os quatro conceitos fundamentais da psicanálise, ao afirmar que a psicanálise não é um idealismo, mas que ´´nenhuma práxis, mais que a análise, é orientada para aquilo que no coração da experiência, é o núcleo do real.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Esse real, onde o encontramos? É com efeito de um encontro, de um encontro essencial, que se trata no que a psicanálise descobriu - de um encontro marcado, ao qual somos sempre chamados, com um real que escapole. A Týkhe, nós a traduzimos por encontro do real.
+
+O real está para além do autômaton, do retorno, da volta, da insistência dos signos aos quais nos vemos comandados pelo princípio do prazer. O real é o que vige sempre por trás do autômaton, e do qual é evidente, em toda a pesquisa de Freud, que é do que ele cuida."FormaSingle-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
