@@ -34,7 +34,7 @@ collections:
 
   - name: "transmissoes"
     label: "Transmissões"
-    folder: "src/pages/transmissao"
+    folder: "src/pages/transmissoes"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
