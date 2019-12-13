@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
-import logo from "../img/logo.svg";
+import logo from "../img/LogoTYKHE.png";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -46,7 +46,7 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/sobre">
-                Sobre a TYKHE
+                Sobres
               </Link>
               <Link className="navbar-item" to="/formacao">
                 Formação
@@ -63,7 +63,11 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="TYKHE" style={{ width: "88px" }} />
+              <img
+                src={logo}
+                alt="TYKHE"
+                style={{ width: "278px", height: "150px" }}
+              />
             </Link>
             {/* Hamburger menu */}
             <div
