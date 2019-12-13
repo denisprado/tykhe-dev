@@ -57,7 +57,7 @@ collections:
     create: true
     files:
       - file: "src/pages/index.md"
-        label: "Home"
+        label: "Página Inicial"
         name: "index"
         fields:
           - {
