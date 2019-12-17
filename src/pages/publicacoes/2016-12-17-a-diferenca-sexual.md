@@ -4,7 +4,7 @@ title: "A diferença sexual: a criança, o analista e a Psicanálise."
 date: 2016-12-17T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/flavor_wheel.jpg
-description:
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus mauris vitae nunc pretium placerat a vel ante. Curabitur consequat, lorem eleifend malesuada pretium, eros magna porttitor orci, sit amet porttitor felis dui et leo. Quisque purus dui, vulputate eget scelerisque quis, aliquet et tellus. Sed at libero id nibh ultrices ultricies. Aenean quis arcu ullamcorper, interdum metus non, feugiat lacus. Nam egestas erat at nisi pellentesque eleifend. Donec consequat justo id dapibus scelerisque. Pellentesque erat lacus, accumsan in nisi at, elementum tristique felis.
 tags:
   - criança
   - analista

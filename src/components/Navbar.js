@@ -34,82 +34,61 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div
-            id="navMenuTop"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/sobre">
-                Sobres
+      <>
+        <nav
+          className="navbar is-transparent has-shadow is-spaced"
+          role="navigation"
+          aria-label="main-navigation"
+        >
+          <div className="container">
+            <div className="navbar-brand is-large">
+              <Link to="/" className="navbar-item" title="Logo">
+                <img src={logo} alt="TYKHE" style={{ width: "90px" }} />
               </Link>
-              <Link className="navbar-item" to="/formacao">
-                Formação
-              </Link>
-              <Link className="navbar-item" to="/direcao">
-                Direção
-              </Link>
-              <Link className="navbar-item" to="/associados">
-                Associados
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img
-                src={logo}
-                alt="TYKHE"
-                style={{ width: "278px", height: "150px" }}
-              />
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/publicacoes">
-                Publicações
-              </Link>
-              <Link className="navbar-item" to="/transmissoes">
-                Transmissão
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="#"
-                target="_blank"
-                rel="noopener noreferrer"
+              {/* Hamburger menu */}
+              <div
+                className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+                data-target="navMenu"
+                onClick={() => this.toggleHamburger()}
               >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
+                <span />
+                <span />
+                <span />
+              </div>
+            </div>
+            <div
+              id="navMenu"
+              className={`navbar-menu ${this.state.navBarActiveClass}`}
+            >
+              <div className="navbar-start has-text-centered">
+                <Link className="navbar-item" to="/publicacoes">
+                  Publicações
+                </Link>
+                <Link className="navbar-item" to="/transmissoes">
+                  Transmissão
+                </Link>
+              </div>
+              <div className="navbar-end has-text-centered">
+                <Link className="navbar-item" to="/sobre">
+                  Sobre
+                </Link>
+                <Link className="navbar-item" to="/formacao">
+                  Formação
+                </Link>
+                <Link className="navbar-item" to="/direcao">
+                  Direção
+                </Link>
+                <Link className="navbar-item" to="/associados">
+                  Associados
+                </Link>
+                <Link className="navbar-item" to="/contact">
+                  Contato
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </>
     );
   }
 };
