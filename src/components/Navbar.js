@@ -40,51 +40,49 @@ const Navbar = class extends React.Component {
           role="navigation"
           aria-label="main-navigation"
         >
-          <div className="container">
-            <div className="navbar-brand is-large">
-              <Link to="/" className="navbar-item" title="Logo">
-                <img src={logo} alt="TYKHE" style={{ width: "90px" }} />
-              </Link>
-              {/* Hamburger menu */}
-              <div
-                className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-                data-target="navMenu"
-                onClick={() => this.toggleHamburger()}
-              >
-                <span />
-                <span />
-                <span />
-              </div>
-            </div>
+          <div className="navbar-brand is-large">
+            <Link to="/" className="navbar-item" title="Logo">
+              <img src={logo} alt="TYKHE" style={{ width: "90px" }} />
+            </Link>
+            {/* Hamburger menu */}
             <div
-              id="navMenu"
-              className={`navbar-menu ${this.state.navBarActiveClass}`}
+              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              data-target="navMenu"
+              onClick={() => this.toggleHamburger()}
             >
-              <div className="navbar-start has-text-centered">
-                <Link className="navbar-item" to="/publicacoes">
-                  Publicações
-                </Link>
-                <Link className="navbar-item" to="/transmissoes">
-                  Transmissão
-                </Link>
-              </div>
-              <div className="navbar-end has-text-centered">
-                <Link className="navbar-item" to="/sobre">
-                  Sobre
-                </Link>
-                <Link className="navbar-item" to="/formacao">
-                  Formação
-                </Link>
-                <Link className="navbar-item" to="/direcao">
-                  Direção
-                </Link>
-                <Link className="navbar-item" to="/associados">
-                  Associados
-                </Link>
-                <Link className="navbar-item" to="/contact">
-                  Contato
-                </Link>
-              </div>
+              <span />
+              <span />
+              <span />
+            </div>
+          </div>
+          <div
+            id="navMenu"
+            className={`navbar-menu ${this.state.navBarActiveClass}`}
+          >
+            <div className="navbar-start has-text-centered">
+              <Link className="navbar-item" to="/publicacoes">
+                Publicações
+              </Link>
+              <Link className="navbar-item" to="/transmissoes">
+                Transmissão
+              </Link>
+            </div>
+            <div className="navbar-end has-text-centered">
+              <Link className="navbar-item" to="/sobre">
+                Sobre
+              </Link>
+              <Link className="navbar-item" to="/formacao">
+                Formação
+              </Link>
+              <Link className="navbar-item" to="/direcao">
+                Direção
+              </Link>
+              <Link className="navbar-item" to="/associados">
+                Associados
+              </Link>
+              <Link className="navbar-item" to="/contact">
+                Contato
+              </Link>
             </div>
           </div>
         </nav>
