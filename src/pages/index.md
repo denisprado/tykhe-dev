@@ -3,7 +3,7 @@ templateKey: index-page
 title: TYKHE
 image: /img/78621440_1739041986226993_537870642947555328_n.jpg
 heading: Associação de Psicanálise
-subheading: Support sustainable farming while enjoying a cup
+subheading: Associação de Psicanálise
 mainpitch:
   title: Why Kaldi
   description: >
