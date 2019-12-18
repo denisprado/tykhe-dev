@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
+image: /img/78621440_1739041986226993_537870642947555328_n.jpg
 title: Sobre
-image: /img/jumbotron.jpg
 ---
 
 ### Sobre o instituto
