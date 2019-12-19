@@ -66,7 +66,8 @@ export const TransmissoesRoll = props => {
           </p>
         </div>
       </nav>
-      <div className="container tile is-ancestor">
+
+      <div className="tile is-ancestor">
         <div className="tile is-parent">
           {posts &&
             posts.map(({ node: post }) => (

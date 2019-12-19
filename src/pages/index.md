@@ -2,7 +2,7 @@
 templateKey: index-page
 title: TYKHE
 image: /img/fortuna.jpg
-heading: Associação de Psicanálise
+heading: TYKHE - Associação de Psicanálise
 subheading: Associação de Psicanálise
 mainpitch:
   title: Why Kaldi
@@ -68,4 +68,3 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
-
