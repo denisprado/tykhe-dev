@@ -54,7 +54,7 @@ collections:
 
   - name: "pages"
     label: "Páginas"
-    create: true
+    create: false
     files:
       - file: "src/pages/index.md"
         label: "Página Inicial"
