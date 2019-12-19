@@ -64,7 +64,7 @@ const TransmissoesPost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Transmissões">
+          <Helmet titleTemplate="%s | Transmissão">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
