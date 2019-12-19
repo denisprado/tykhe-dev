@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-image: /img/jumbotron.jpg
+image: /img/fortuna-head.jpg
 title: Associados
 ---
 
