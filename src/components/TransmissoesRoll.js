@@ -57,7 +57,7 @@ export const TransmissoesRoll = props => {
               className="input"
               type="text"
               id="filter"
-              placeholder="Pesquise em nossas publicações."
+              placeholder="Filtrar atividades de Transmissão."
               onChange={handleInputChange}
             />
             <span className="icon is-left">
