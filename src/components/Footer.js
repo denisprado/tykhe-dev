@@ -10,7 +10,7 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-background-grey-lighter	has-text-black">
-        <div className="content has-text-centered">
+        <div className="content has-text-centered margin-bottom-3">
           <img
             src={logo}
             alt="TYKHE"
