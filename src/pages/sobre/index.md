@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-image: /img/jumbotron.jpg
+image: /img/68958236_1622086341255892_7757473065637773312_n.png
 title: Sobre
 ---
 
