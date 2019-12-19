@@ -12,7 +12,7 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
+  - name: "publicacoes"
     label: "Publicações"
     folder: "src/pages/publicacoes"
     create: true
@@ -32,9 +32,9 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
 
-  - name: "transmissoes"
+  - name: "transmissao"
     label: "Transmissões"
-    folder: "src/pages/transmissoes"
+    folder: "src/pages/transmissao"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:

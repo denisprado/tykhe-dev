@@ -1,7 +1,7 @@
 ---
 templateKey: transmissoes-post
 title: "Grupo de leitura sob a transferência - Seminário 8, Jacques Lacan"
-date: 2019-12-12T23:16:47.964Z
+date: 2019-12-16T23:16:47.964Z
 description: "Na transferência, um dos conceitos fundamentais da Psicanálise, o que se atualiza, é a relação do sujeito com o objeto, não o objeto como mercadoria, mas o objeto que causa desejo e move o sujeito. É com esse objeto que jogamos, que operamos na transferência. Será a partir dele que lançaremos os dados em 2020.
 “Há necessidade de se acentuar o correlativo objeto de desejo, pois é este o objeto, e não o objeto da equivalência, do transitivismo dos bens, da transação sobre as cobiças. É esta alguma coisa que é visada pelo desejo como tal, que acentua um objeto entre todos, por não ter comparação com os outros. É a essa acentuação do objeto que responde a introdução, em análise, da função do objeto parcial”. Jacques Lacan in “A Transferência” (1960/61). Mas como isso comparece na fala do sujeito em análise?  
 Daremos ênfase a esse objeto que participa tanto da fantasia individual quanto do social, uma vez que o social, tal qual o individual, é movido por aquilo que está em causa na fantasia. O objeto é o que faz fronteira entre individual e coletivo. Esse obscuro objeto, objeto do desejo.

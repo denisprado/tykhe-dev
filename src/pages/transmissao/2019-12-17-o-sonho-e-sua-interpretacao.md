@@ -1,7 +1,7 @@
 ---
 templateKey: transmissoes-post
 title: "Grupo de leitura da obra de S. Freud: 'O sonho e sua interpretação'"
-date: 2019-12-12T23:16:47.964Z
+date: 2019-12-17T23:16:47.964Z
 description: "Partimos da premissa de que o sonho, ao ser interpretado, se revela como lugar de articulação dos significantes que representam aquele sujeito singular com os significantes da cultura em um determinado momento histórico.
 O sonho, desta forma, implica não apenas o sonhador, mas ou aqueles a quem ele se dirige."
 featuredpost: true

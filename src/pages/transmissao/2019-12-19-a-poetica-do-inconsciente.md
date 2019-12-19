@@ -1,7 +1,7 @@
 ---
 templateKey: transmissoes-post
 title: "A POÉTICA DO INCONSCIENTE: O INFANTIL (EN) CENA"
-date: 2019-12-12T23:16:47.964Z
+date: 2019-12-19T23:16:47.964Z
 description: "Quando uma criança adentra ao nosso consultório desorganiza tudo, o consultório, os brinquedos e materiais, os nossos saberes e as nossas ideias. Quase sempre nos é trazida pela mãe e carrega o seu sintoma e a queixa dos pais e ou professores. No decorrer dos atendimentos põe em cena e encena o que de fato está operando e fazendo eclodir o sintoma."
 featuredpost: false
 featuredimage: /img/chemex.jpg
