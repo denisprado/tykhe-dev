@@ -75,19 +75,23 @@ export const BlogRoll = props => {
                 <div className="card-image">
                   <figure className="image">
                     {post.frontmatter.featuredimage ? (
-                      <div className="featured-thumbnail">
-                        <PreviewCompatibleImage
-                          imageInfo={{
-                            image: post.frontmatter.featuredimage,
-                            alt: `Imagem de destaque para ${post.frontmatter.title}`
-                          }}
-                        />
-                      </div>
+                      <Link to={post.fields.slug}>
+                        <div className="featured-thumbnail">
+                          <PreviewCompatibleImage
+                            imageInfo={{
+                              image: post.frontmatter.featuredimage,
+                              alt: `Imagem de destaque para ${post.frontmatter.title}`
+                            }}
+                          />
+                        </div>
+                      </Link>
                     ) : null}
                   </figure>
                 </div>
                 <div className="card-content">
                   <p className="title is-4">{post.frontmatter.title}</p>
+                  <div className="content">{post.excerpt}</div>
+
                   <div className="content">
                     {post.frontmatter.tags && post.frontmatter.tags.length
                       ? post.frontmatter.tags.map(tag => (
@@ -100,8 +104,6 @@ export const BlogRoll = props => {
                         ))
                       : null}
                   </div>
-
-                  <div className="content">{post.excerpt}</div>
 
                   <footer className="card-footer">
                     <div className="card-footer-item">
