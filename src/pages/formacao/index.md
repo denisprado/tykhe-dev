@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
+image: /img/fortuna-head.jpg
 title: Formação
-image: /img/jumbotron.jpg
 ---
 
 ### Formação
