@@ -36,7 +36,7 @@ const Navbar = class extends React.Component {
     return (
       <>
         <nav
-          className="navbar is-transparent has-shadow is-spaced"
+          className="navbar has-shadow is-primary"
           role="navigation"
           aria-label="main-navigation"
         >
@@ -63,7 +63,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/publicacoes">
                 Publicações
               </Link>
-              <Link className="navbar-item" to="/transmissoes">
+              <Link className="navbar-item" to="/transmissao">
                 Transmissão
               </Link>
             </div>

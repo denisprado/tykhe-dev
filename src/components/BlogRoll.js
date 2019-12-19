@@ -51,7 +51,7 @@ export const BlogRoll = props => {
   return (
     <>
       <nav className="panel margin-bottom-3">
-        <div className="panel-block has-background-grey-lighter">
+        <div className="panel-block has-background-white">
           <p className="control has-icons-left">
             <input
               className="input"

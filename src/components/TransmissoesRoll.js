@@ -1,62 +1,127 @@
-import React from "react";
+import React, { setState } from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
+import { kebabCase } from "lodash";
 
-class TransmissoesRoll extends React.Component {
-  render() {
-    const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+export const TransmissoesRoll = props => {
+  const { data } = props;
+  const { edges: allPosts } = data.allMarkdownRemark;
 
-    return (
-      <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
-              <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? "is-featured" : ""
-                }`}
-              >
-                <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Continue Lendo →
-                  </Link>
-                </p>
-              </article>
-            </div>
-          ))}
-      </div>
-    );
+  const emptyQuery = "";
+
+  const [state, setState] = React.useState({
+    filteredData: [],
+    query: emptyQuery
+  });
+
+  function handleInputChange(event) {
+    const query = event.target.value;
+    const { data } = props;
+    console.log(data);
+    // this is how we get all of our posts
+    const { edges: posts } = data.allMarkdownRemark || [];
+    const filteredData = posts.filter(post => {
+      // destructure data from post frontmatter
+      const { description, title, tags } = post.node.frontmatter;
+      return (
+        // standardize data with .toLowerCase()
+        // return true if the description, title or tags
+        // contains the query string
+        description.toLowerCase().includes(query.toLowerCase()) ||
+        title.toLowerCase().includes(query.toLowerCase()) ||
+        tags
+          .join("") // convert tags from an array to string
+          .toLowerCase()
+          .includes(query.toLowerCase())
+      );
+    });
+
+    // update state according to the latest query and results
+    setState({
+      query, // with current query string from the `Input` event
+      filteredData // with filtered data from posts.filter(post => (//filteredData)) above
+    });
   }
-}
+
+  const { filteredData, query } = state;
+  const hasSearchResults = filteredData && query !== emptyQuery;
+  const posts = hasSearchResults ? filteredData : allPosts;
+
+  return (
+    <>
+      <nav className="panel margin-bottom-3">
+        <div className="panel-block has-background-white">
+          <p className="control has-icons-left">
+            <input
+              className="input"
+              type="text"
+              id="filter"
+              placeholder="Pesquise em nossas publicações."
+              onChange={handleInputChange}
+            />
+            <span className="icon is-left">
+              <i className="fas fa-search" aria-hidden="true"></i>
+            </span>
+          </p>
+        </div>
+      </nav>
+      <div className="container tile is-ancestor">
+        <div className="tile is-parent">
+          {posts &&
+            posts.map(({ node: post }) => (
+              <div className="tile is-parent is-4" key={post.id}>
+                <article className="box tile is-child">
+                  <div className="card-image">
+                    <figure className="image">
+                      {post.frontmatter.featuredimage ? (
+                        <div className="featured-thumbnail">
+                          <PreviewCompatibleImage
+                            imageInfo={{
+                              image: post.frontmatter.featuredimage,
+                              alt: `Imagem de destaque para ${post.frontmatter.title}`
+                            }}
+                          />
+                        </div>
+                      ) : null}
+                    </figure>
+                  </div>
+                  <div className="card-content">
+                    <p className="title is-4">{post.frontmatter.title}</p>
+                    <div className="content">
+                      {post.frontmatter.tags && post.frontmatter.tags.length
+                        ? post.frontmatter.tags.map(tag => (
+                            <Link
+                              to={`/tags/${kebabCase(tag)}/`}
+                              key={tag + `tag`}
+                            >
+                              <span className="tag is-medium">{tag}</span>
+                            </Link>
+                          ))
+                        : null}
+                    </div>
+
+                    <div className="content">{post.excerpt}</div>
+
+                    <footer className="card-footer">
+                      <div className="card-footer-item">
+                        <time dateTime="2016-1-1">
+                          {post.frontmatter.date}{" "}
+                        </time>
+                      </div>
+                      <div className="card-footer-item">
+                        <Link to={post.fields.slug}>Continue Lendo →</Link>
+                      </div>
+                    </footer>
+                  </div>
+                </article>
+              </div>
+            ))}
+        </div>
+      </div>
+    </>
+  );
+};
 
 TransmissoesRoll.propTypes = {
   data: PropTypes.shape({
@@ -76,19 +141,21 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 200)
               id
               fields {
                 slug
               }
               frontmatter {
                 title
+                description
+                tags
                 templateKey
-                date(formatString: "DD de MMMM de YYYY")
+                date(formatString: "DD/MM/YYYY")
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 500, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
