@@ -67,58 +67,54 @@ export const TransmissoesRoll = props => {
         </div>
       </nav>
 
-      <div className="tile is-ancestor">
-        <div className="tile is-parent">
-          {posts &&
-            posts.map(({ node: post }) => (
-              <div className="tile is-parent is-4" key={post.id}>
-                <article className="box tile is-child">
-                  <div className="card-image">
-                    <figure className="image">
-                      {post.frontmatter.featuredimage ? (
-                        <div className="featured-thumbnail">
-                          <PreviewCompatibleImage
-                            imageInfo={{
-                              image: post.frontmatter.featuredimage,
-                              alt: `Imagem de destaque para ${post.frontmatter.title}`
-                            }}
-                          />
-                        </div>
-                      ) : null}
-                    </figure>
+      <div className="columns is-multiline">
+        {posts &&
+          posts.map(({ node: post }) => (
+            <div className="column is-4" key={post.id}>
+              <article className="box card">
+                <div className="card-image">
+                  <figure className="image">
+                    {post.frontmatter.featuredimage ? (
+                      <div className="featured-thumbnail">
+                        <PreviewCompatibleImage
+                          imageInfo={{
+                            image: post.frontmatter.featuredimage,
+                            alt: `Imagem de destaque para ${post.frontmatter.title}`
+                          }}
+                        />
+                      </div>
+                    ) : null}
+                  </figure>
+                </div>
+                <div className="card-content">
+                  <p className="title is-4">{post.frontmatter.title}</p>
+                  <div className="content">
+                    {post.frontmatter.tags && post.frontmatter.tags.length
+                      ? post.frontmatter.tags.map(tag => (
+                          <Link
+                            to={`/tags/${kebabCase(tag)}/`}
+                            key={tag + `tag`}
+                          >
+                            <span className="tag is-medium">{tag}</span>
+                          </Link>
+                        ))
+                      : null}
                   </div>
-                  <div className="card-content">
-                    <p className="title is-4">{post.frontmatter.title}</p>
-                    <div className="content">
-                      {post.frontmatter.tags && post.frontmatter.tags.length
-                        ? post.frontmatter.tags.map(tag => (
-                            <Link
-                              to={`/tags/${kebabCase(tag)}/`}
-                              key={tag + `tag`}
-                            >
-                              <span className="tag is-medium">{tag}</span>
-                            </Link>
-                          ))
-                        : null}
+
+                  <div className="content">{post.excerpt}</div>
+
+                  <footer className="card-footer">
+                    <div className="card-footer-item">
+                      <time dateTime="2016-1-1">{post.frontmatter.date} </time>
                     </div>
-
-                    <div className="content">{post.excerpt}</div>
-
-                    <footer className="card-footer">
-                      <div className="card-footer-item">
-                        <time dateTime="2016-1-1">
-                          {post.frontmatter.date}{" "}
-                        </time>
-                      </div>
-                      <div className="card-footer-item">
-                        <Link to={post.fields.slug}>Continue Lendo →</Link>
-                      </div>
-                    </footer>
-                  </div>
-                </article>
-              </div>
-            ))}
-        </div>
+                    <div className="card-footer-item">
+                      <Link to={post.fields.slug}>Continue Lendo →</Link>
+                    </div>
+                  </footer>
+                </div>
+              </article>
+            </div>
+          ))}
       </div>
     </>
   );

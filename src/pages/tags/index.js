@@ -13,31 +13,33 @@ const TagsPage = ({
   }
 }) => (
   <Layout>
-    <section className="section container">
-      <Helmet title={`Tags | ${title}`} />
-      <nav className="breadcrumb margin-bottom-3" aria-label="breadcrumbs">
-        <ul>
-          <li>
-            <a href="/">TYKHE</a>
-          </li>
-          <li className="is-active">
-            <a aria-current="page" href="/tags">
-              Tags
-            </a>
-          </li>
-        </ul>
-      </nav>
+    <section className="section">
       <div className="container">
-        <h1 className="title">Tags</h1>
-        <h2 className="subtitle is-spaced">Assuntos dos artigos da TYKHE</h2>
+        <Helmet title={`Tags | ${title}`} />
+        <nav className="breadcrumb margin-bottom-3" aria-label="breadcrumbs">
+          <ul>
+            <li>
+              <a href="/">TYKHE</a>
+            </li>
+            <li className="is-active">
+              <a aria-current="page" href="/tags">
+                Tags
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div className="container">
+          <h1 className="title">Tags</h1>
+          <h2 className="subtitle is-spaced">Assuntos dos artigos da TYKHE</h2>
 
-        {group.map(tag => (
-          <li key={tag.fieldValue}>
-            <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
-        ))}
+          {group.map(tag => (
+            <li key={tag.fieldValue}>
+              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                {tag.fieldValue} ({tag.totalCount})
+              </Link>
+            </li>
+          ))}
+        </div>
       </div>
     </section>
   </Layout>

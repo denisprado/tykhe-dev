@@ -56,7 +56,7 @@ export default class Index extends React.Component {
         </section>
         <section className="section container">
           <div className="content">
-            <div className="columns is-multiline">
+            <div className="columns margin-bottom-3">
               <div className="column is-3">
                 <h4>Endereço</h4>
                 <p>
@@ -80,14 +80,15 @@ export default class Index extends React.Component {
               <div className="column is-3">
                 <h4>Secretaria TÝKHE</h4>
                 <p>
-                  Horário de funcionamento da secretaria.
+                  Horário de <strong>funcionamento da secretaria</strong>:
                   <br />
-                  Terça e quinta-feira das 15h às 20h.
+                  Terça e quinta-feira
                   <br />
+                  das 15h às 20h.
                 </p>
               </div>
             </div>
-            <div className="columns is-multiline">
+            <div className="columns  margin-bottom-3">
               <div className="column is-3">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58823.47122046687!2d-47.08886598087608!3d-22.859202769122117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cf4fd0b35f53%3A0x9fc34167a86cdb9a!2sR.%20Am%C3%A9rico%20Brasiliense%2C%20244%20-%20Cambu%C3%AD%2C%20Campinas%20-%20SP%2C%2013025-230!5e0!3m2!1spt-BR!2sbr!4v1576763631753!5m2!1spt-BR!2sbr"
