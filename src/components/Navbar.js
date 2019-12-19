@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
 import logo from "../img/LogoTYKHE-bco.png";
-
+import facebook from "../img/social/facebook.svg";
+import instagram from "../img/social/instagram.svg";
+import twitter from "../img/social/twitter.svg";
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
@@ -76,12 +78,33 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/direcao">
                 Direção
               </Link>
-              <Link className="navbar-item" to="/associados">
+              <Link className="navbar-item margin-right-3" to="/associados">
                 Associados
               </Link>
               <Link className="navbar-item" to="/contact">
                 Contato
               </Link>
+              <a
+                title="facebook"
+                className="navbar-item"
+                href="https://facebook.com"
+              >
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a
+                title="twitter"
+                className="navbar-item"
+                href="https://twitter.com"
+              >
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a
+                title="instagram"
+                className="navbar-item"
+                href="https://instagram.com"
+              >
+                <i className="fab fa-instagram"></i>
+              </a>
             </div>
           </div>
         </nav>

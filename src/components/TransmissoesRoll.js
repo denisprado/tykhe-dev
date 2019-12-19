@@ -18,7 +18,6 @@ export const TransmissoesRoll = props => {
   function handleInputChange(event) {
     const query = event.target.value;
     const { data } = props;
-    console.log(data);
     // this is how we get all of our posts
     const { edges: posts } = data.allMarkdownRemark || [];
     const filteredData = posts.filter(post => {

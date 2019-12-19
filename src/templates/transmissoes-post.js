@@ -12,13 +12,34 @@ export const TransmissoesPostTemplate = ({
   description,
   tags,
   title,
-  helmet
+  helmet,
+  slug
 }) => {
   const PostContent = contentComponent || Content;
 
   return (
     <section className="section">
       {helmet || ""}
+      <nav
+        className="breadcrumb container margin-bottom-3"
+        aria-label="breadcrumbs"
+      >
+        <ul>
+          <li>
+            <a href="/">TYKHE</a>
+          </li>
+          <li>
+            <a aria-current="page" href="/transmissao">
+              Transmissão
+            </a>
+          </li>
+          <li className="is-active">
+            <a aria-current="page" href="/${slug}">
+              {title}
+            </a>
+          </li>
+        </ul>
+      </nav>
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -63,6 +84,7 @@ const TransmissoesPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        slug={post.fields.slug}
         helmet={
           <Helmet titleTemplate="%s | Transmissão">
             <title>{`${post.frontmatter.title}`}</title>
@@ -97,6 +119,9 @@ export const pageQuery = graphql`
         title
         description
         tags
+      }
+      fields {
+        slug
       }
     }
   }

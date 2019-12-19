@@ -1,6 +1,6 @@
 ---
 templateKey: transmissoes-post
-title: 'A poética do insconsciente: o infantil (en) cena'
+title: "A poética do insconsciente: o infantil (en) cena"
 date: 2019-12-19T20:42:19.039Z
 description: >
   Quando uma criança adentra ao nosso consultório desorganiza tudo, o
@@ -12,8 +12,8 @@ featuredpost: false
 featuredimage: /img/fortuna.jpg
 tags:
   - infantil
-  - ''
 ---
+
 Quando uma criança adentra ao nosso consultório desorganiza tudo, o consultório, os brinquedos e materiais, os nossos saberes e as nossas ideias. Quase sempre nos é trazida pela mãe e carrega o seu sintoma e a queixa dos pais e ou professores. No decorrer dos atendimentos põe em cena e encena o que de fato está operando e fazendo eclodir o sintoma.
 
 O que está em jogo quando uma criança adoece? Ou apresenta dificuldades de aprendizagem? Desvios de comportamento? Distúrbios de linguagem? O que está velado? O que a criança desvela, revela? A medicação resolve ou silencia? O que é silenciado?

@@ -36,25 +36,30 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <section className="section container">
-          <nav className="breadcrumb margin-bottom-3" aria-label="breadcrumbs">
-            <ul>
-              <li>
-                <a href="/">TYKHE</a>
-              </li>
-              <li className="is-active">
-                <a aria-current="page" href="/contato">
-                  contato
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <h1 className="title">Contato</h1>
-          <h2 className="subtitle is-spaced">
-            Envie sua mensagem ou saiba como chegar até nossa sede.
-          </h2>
+        <section className="section margin-bottom-3">
+          <div className=" container">
+            <nav
+              className="breadcrumb margin-bottom-3"
+              aria-label="breadcrumbs"
+            >
+              <ul>
+                <li>
+                  <a href="/">TYKHE</a>
+                </li>
+                <li className="is-active">
+                  <a aria-current="page" href="/contato">
+                    contato
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <h1 className="title">Contato</h1>
+            <h2 className="subtitle is-spaced">
+              Envie sua mensagem ou saiba como chegar até nossa sede.
+            </h2>
+          </div>
         </section>
-        <section className="section container">
+        <div className="container">
           <div className="content">
             <div className="columns margin-bottom-3">
               <div className="column is-3">
@@ -168,7 +173,7 @@ export default class Index extends React.Component {
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </Layout>
     );
   }

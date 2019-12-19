@@ -63,29 +63,34 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
+              <div className="column is-4 has-background-color-grey">
+                <nav className="navbar is-transparent ">
+                  <div className="navbar-menu">
+                    <div className="navbar-start ">
+                      <a
+                        title="facebook"
+                        className="navbar-item"
+                        href="https://facebook.com"
+                      >
+                        <i className="fab fa-facebook-f"></i>
+                      </a>
+                      <a
+                        title="twitter"
+                        className="navbar-item"
+                        href="https://twitter.com"
+                      >
+                        <i className="fab fa-twitter"></i>
+                      </a>
+                      <a
+                        title="instagram"
+                        className="navbar-item"
+                        href="https://instagram.com"
+                      >
+                        <i className="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                </nav>
               </div>
             </div>
           </div>
