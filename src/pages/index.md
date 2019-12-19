@@ -7,7 +7,7 @@ subheading: Associação de Psicanálise
 mainpitch:
   title: TYKHE - Associação de Psicanálise
   description: >
-    Estão convidados todos aqueles que possam contribuir para por à prova a
+    "Estão convidados todos aqueles que possam contribuir para por à prova a
     conformidade desta formação” (Lacan-1964)
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -66,4 +66,3 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
-

@@ -5,6 +5,7 @@ import logoBco from "../img/LogoTYKHE-bco.png";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
+import TransmissoesRoll from "../components/TransmissoesRoll";
 
 export const IndexPageTemplate = ({
   image,
@@ -61,13 +62,17 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                    <h2 className="title">{mainpitch.title}</h2>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
                 </div>
-                {/* <div className="columns">
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
@@ -83,17 +88,33 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div> */}
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Publicações
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/publicacoes">
-                      Leia Mais
-                    </Link>
-                  </div>
-                </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="section">
+          <div className="columns">
+            <div className="column is-10  is-offset-1">
+              <h2 className="title">Publicações</h2>
+              <BlogRoll max="3" />
+              <div className="column is-12 has-text-centered">
+                <Link className="btn" to="/publicacoes">
+                  Ver todos
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="section">
+          <div className="columns">
+            <div className="column is-10  is-offset-1">
+              <h2 className="title">Transmissão</h2>
+              <TransmissoesRoll max="3" />
+              <div className="column is-12 has-text-centered">
+                <Link className="btn" to="/transmissao">
+                  Leia Mais
+                </Link>
               </div>
             </div>
           </div>
