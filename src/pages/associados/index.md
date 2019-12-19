@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
+image: /img/68958236_1622086341255892_7757473065637773312_n.png
 title: Associados
-image: /img/jumbotron.jpg
 ---
 
 ### Associados
