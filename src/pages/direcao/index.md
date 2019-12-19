@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
+image: /img/fortuna-head.jpg
 title: Direção
-image: /img/jumbotron.jpg
 ---
 
 ### Direção Atual
