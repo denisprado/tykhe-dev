@@ -1,6 +1,6 @@
 ---
 templateKey: about-page
-image: /img/fortuna.jpg
+image: /img/fortuna-head.jpg
 title: Sobre
 ---
 
