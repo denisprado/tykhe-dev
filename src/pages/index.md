@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: TYKHE
-image: /img/flavor_wheel.jpg
+image: /img/fortuna.jpg
 heading: Associação de Psicanálise
 subheading: Associação de Psicanálise
 mainpitch:
@@ -68,3 +68,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
