@@ -4,7 +4,7 @@ import Helmet from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/Layout";
 
-const TagsPage = ({
+const CatsPage = ({
   data: {
     allMarkdownRemark: { group },
     site: {
@@ -15,29 +15,29 @@ const TagsPage = ({
   <Layout>
     <section className="section">
       <div className="container">
-        <Helmet title={`Tags | ${title}`} />
+        <Helmet title={`Categorias | ${title}`} />
         <nav className="breadcrumb margin-bottom-3" aria-label="breadcrumbs">
           <ul>
             <li>
               <a href="/">TYKHE</a>
             </li>
             <li className="is-active">
-              <a aria-current="page" href="/tags">
+              <a aria-current="page" href="/cats">
                 Tags
               </a>
             </li>
           </ul>
         </nav>
         <div className="container">
-          <h1 className="title">Tags</h1>
+          <h1 className="title">Categorias</h1>
           <h2 className="subtitle is-spaced">
-            Navegue pelos temas dos artigos da TYKHE
+            Navegue pelos tipos de publicação da TYKHE
           </h2>
 
-          {group.map(tag => (
-            <li key={tag.fieldValue}>
-              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                {tag.fieldValue} ({tag.totalCount})
+          {group.map(cat => (
+            <li key={cat.fieldValue}>
+              <Link to={`/cats/${kebabCase(cat.fieldValue)}/`}>
+                {cat.fieldValue} ({cat.totalCount})
               </Link>
             </li>
           ))}
@@ -47,10 +47,10 @@ const TagsPage = ({
   </Layout>
 );
 
-export default TagsPage;
+export default CatsPage;
 
-export const tagPageQuery = graphql`
-  query TagsQuery {
+export const catPageQuery = graphql`
+  query CatsQuery {
     site {
       siteMetadata {
         title

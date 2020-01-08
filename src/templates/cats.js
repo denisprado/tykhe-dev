@@ -3,7 +3,7 @@ import Helmet from "react-helmet";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 
-class TagRoute extends React.Component {
+class CatRoute extends React.Component {
   render() {
     const posts = this.props.data.allMarkdownRemark.edges;
     const postLinks = posts.map(post => (
@@ -17,16 +17,16 @@ class TagRoute extends React.Component {
         </Link>
       </li>
     ));
-    const tag = this.props.pageContext.tag;
+    const cat = this.props.pageContext.cat;
     const title = this.props.data.site.siteMetadata.title;
     const totalCount = this.props.data.allMarkdownRemark.totalCount;
-    const tagHeader = `${totalCount} post${
+    const catHeader = `${totalCount} post${
       totalCount === 1 ? "" : "s"
-    } marcados com “${tag}”`;
+    } marcados com “${cat}”`;
 
     return (
       <Layout>
-        <Helmet title={`${tag} | ${title}`} />
+        <Helmet title={`${cat} | ${title}`} />
         <section className="section">
           <div className="container">
             <nav
@@ -38,17 +38,17 @@ class TagRoute extends React.Component {
                   <a href="/">TYKHE</a>
                 </li>
                 <li className="is-active">
-                  <a aria-current="page" href="/tags">
-                    Tags
+                  <a aria-current="page" href="/cats">
+                    Categorias
                   </a>
                 </li>
               </ul>
             </nav>
 
-            <h1 className="title">{tagHeader}</h1>
+            <h1 className="title">{catHeader}</h1>
 
-            <ul className="taglist columns is-multiline">{postLinks}</ul>
-            <Link to="/tags/">Navegue pelas tags</Link>
+            <ul className="catlist columns is-multiline">{postLinks}</ul>
+            <Link to="/cats/">Navegue pelas categorias</Link>
           </div>
         </section>
       </Layout>
@@ -56,10 +56,10 @@ class TagRoute extends React.Component {
   }
 }
 
-export default TagRoute;
+export default CatRoute;
 
-export const tagPageQuery = graphql`
-  query TagPage($tag: String) {
+export const catPageQuery = graphql`
+  query CatPage($cat: String) {
     site {
       siteMetadata {
         title
@@ -68,7 +68,7 @@ export const tagPageQuery = graphql`
     allMarkdownRemark(
       limit: 1000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { in: [$tag] } } }
+      filter: { frontmatter: { cat: { in: [$cat] } } }
     ) {
       totalCount
       edges {

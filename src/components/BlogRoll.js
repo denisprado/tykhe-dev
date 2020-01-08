@@ -23,7 +23,7 @@ export const BlogRoll = props => {
     const { edges: posts } = data.allMarkdownRemark || [];
     const filteredData = posts.filter(post => {
       // destructure data from post frontmatter
-      const { description, title, tags } = post.node.frontmatter;
+      const { description, title, tags, cat } = post.node.frontmatter;
       return (
         // standardize data with .toLowerCase()
         // return true if the description, title or tags
@@ -31,6 +31,10 @@ export const BlogRoll = props => {
         description.toLowerCase().includes(query.toLowerCase()) ||
         title.toLowerCase().includes(query.toLowerCase()) ||
         tags
+          .join("") // convert tags from an array to string
+          .toLowerCase()
+          .includes(query.toLowerCase()) ||
+        cat
           .join("") // convert tags from an array to string
           .toLowerCase()
           .includes(query.toLowerCase())
@@ -72,6 +76,16 @@ export const BlogRoll = props => {
           posts.map(({ node: post }) => (
             <div className="column is-4" key={post.id}>
               <article className="box card">
+                <div className="content">
+                  {post.frontmatter.cat && post.frontmatter.cat.length
+                    ? post.frontmatter.cat.map(cat => (
+                        <Link to={`/cats/${kebabCase(cat)}/`} key={cat + `cat`}>
+                          <span className="tag is-small">{cat}</span>
+                          {console.log(post.frontmatter.cat)}
+                        </Link>
+                      ))
+                    : null}
+                </div>
                 <div className="card-image">
                   <figure className="image">
                     {post.frontmatter.featuredimage ? (
@@ -149,6 +163,7 @@ export default () => (
                 title
                 description
                 tags
+                cat
                 templateKey
                 date(formatString: "DD/MM/YYYY")
                 featuredpost

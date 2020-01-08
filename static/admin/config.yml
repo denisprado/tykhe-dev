@@ -31,6 +31,19 @@ collections:
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
+      - {
+          label: "Categoria",
+          name: "cat",
+          default: ["article"],
+          widget: "list",
+          fields:
+            - {
+              label: Quote,
+              name: quote,
+              widget: string,
+              default: "fa-file-text-o",
+            },
+        }
 
   - name: "transmissao"
     label: "Transmissões"

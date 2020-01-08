@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
 import logoBco from "../img/LogoTYKHE-bco.png";
 import Layout from "../components/Layout";
-import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import TransmissoesRoll from "../components/TransmissoesRoll";
 
