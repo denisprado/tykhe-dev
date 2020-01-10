@@ -36,10 +36,10 @@ collections:
           name: "cat",
           default: ["article"],
           widget: "list",
-          fields:
-            - {
-              label: Quote,
-              name: quote,
+          field:
+            {
+              label: "Image",
+              name: "image",
               widget: string,
               default: "fa-file-text-o",
             },
