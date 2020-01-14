@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: TYKHE
-image: /img/soundcloud.jpg
+image: /img/tykhe-grad.png
 heading: TYKHE - Associação de Psicanálise
 subheading: Associação de Psicanálise
 mainpitch:
