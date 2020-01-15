@@ -7,7 +7,7 @@ description: >
   de articulação dos significantes que representam aquele sujeito singular com
   os significantes da cultura em um determinado momento histórico.
 featuredpost: false
-featuredimage: /img/fortuna.jpg
+featuredimage: /img/1-sonho-final.jpg
 tags:
   - sonho
   - Freud
