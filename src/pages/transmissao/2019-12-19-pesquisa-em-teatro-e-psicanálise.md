@@ -13,7 +13,7 @@ description: >
   teatral e ser lido em psicanálise pela experiência do “isso fala” do
   inconsciente, promove efeitos de sujeito e no laço social.
 featuredpost: false
-featuredimage: /img/fortuna.jpg
+featuredimage: /img/3-teatro-final.jpg
 tags:
   - teatro
   - Freud
