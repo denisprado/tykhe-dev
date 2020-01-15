@@ -10,9 +10,6 @@ import { Link } from "gatsby";
 
 const TemplateWrapper = ({ children }) => {
   const { props } = children;
-  let { heroSize } = props;
-
-  heroSize = heroSize ? heroSize : "is-medium";
 
   const { title, description } = useSiteMetadata();
   return (
@@ -56,8 +53,8 @@ const TemplateWrapper = ({ children }) => {
             content={`${withPrefix("/")}img/og-image.jpg`}
           />
         </Helmet>
-        {props && (
-          <section className={"hero is-primary is-bold " + heroSize}>
+        {props && props.heroSize && (
+          <section className={"hero is-primary is-bold " + props.heroSize}>
             <div className="hero-head">
               <Navbar />
             </div>

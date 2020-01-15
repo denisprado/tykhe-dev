@@ -26,7 +26,11 @@ class TagRoute extends React.Component {
 
     return (
       <Layout>
-        <Helmet title={`${tag} | ${title}`} />
+        <Helmet
+          heroSize="is-medium"
+          NavbarHeroFoot={false}
+          title={`${tag} | ${title}`}
+        />
         <section className="section">
           <div className="container">
             <nav
