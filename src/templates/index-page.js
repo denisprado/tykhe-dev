@@ -1,10 +1,8 @@
-import React from "react";
+import { graphql, Link } from "gatsby";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
-import logoBco from "../img/LogoTYKHE-bco.png";
-import Layout from "../components/Layout";
+import React from "react";
 import BlogRoll from "../components/BlogRoll";
-import TransmissoesRoll from "../components/TransmissoesRoll";
+import Layout from "../components/Layout";
 
 export const IndexPageTemplate = ({
   image,

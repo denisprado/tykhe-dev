@@ -76,16 +76,6 @@ export const BlogRoll = props => {
           posts.map(({ node: post }) => (
             <div className="column is-4" key={post.id}>
               <article className="box card">
-                <div className="content">
-                  {post.frontmatter.cat && post.frontmatter.cat.length
-                    ? post.frontmatter.cat.map(cat => (
-                        <Link to={`/cats/${kebabCase(cat)}/`} key={cat + `cat`}>
-                          <span className="tag is-small">{cat}</span>
-                          {console.log(post.frontmatter.cat)}
-                        </Link>
-                      ))
-                    : null}
-                </div>
                 <div className="card-image">
                   <figure className="image">
                     {post.frontmatter.featuredimage ? (

@@ -7,11 +7,7 @@ export default class TransmissoesIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <section
-          className="section"
-          heroSize="is-medium"
-          NavbarHeroFoot={false}
-        >
+        <section className="section">
           <div className="container">
             <nav
               className="breadcrumb margin-bottom-3"
