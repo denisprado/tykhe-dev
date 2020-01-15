@@ -15,7 +15,7 @@ description: >
   Percorreremos ao longo do ano para movimentar a questão: por que Freud coloca
   as criações humanas, em especial a arte, na íntima articulação com a fantasia?
 featuredpost: true
-featuredimage: /img/fortuna.jpg
+featuredimage: /img/4-clinica-final.jpg
 tags:
   - clínica
   - fantasia
