@@ -53,7 +53,7 @@ const TemplateWrapper = ({ children }) => {
             content={`${withPrefix("/")}img/og-image.jpg`}
           />
         </Helmet>
-        {props && props.heroSize && (
+        {props && props.heroSize ? (
           <section className={"hero is-primary is-bold " + props.heroSize}>
             <div className="hero-head">
               <Navbar />
@@ -67,6 +67,27 @@ const TemplateWrapper = ({ children }) => {
               )}
             </div>
             {children.props.NavbarHeroFoot ? (
+              <NavbarHeroFoot page={children.props.title} />
+            ) : null}
+          </section>
+        ) : (
+          <section className={"hero is-primary is-bold is-small"}>
+            <div className="hero-head">
+              <Navbar />
+            </div>
+            {children && children.props ? (
+              <div className="hero-body">
+                <div className="container has-text-centered">
+                  <p className="title">{children.props.title}</p>
+                  <p className="subtitle">{children.props.description}</p>
+                </div>
+              </div>
+            ) : (
+              <div className="hero-body">
+                <div className="container has-text-centered"></div>
+              </div>
+            )}
+            {children.props && children.props.NavbarHeroFoot ? (
               <NavbarHeroFoot page={children.props.title} />
             ) : null}
           </section>
