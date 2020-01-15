@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import BlogRoll from "../components/BlogRoll";
 import Layout from "../components/Layout";
+import TransmissoesRoll from "../components/TransmissoesRoll";
 
 export const IndexPageTemplate = ({
   image,
@@ -19,10 +20,10 @@ export const IndexPageTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-10  is-offset-1">
-              <h2 className="title">Publicações</h2>
-              <BlogRoll max="3" />
+              <h2 className="title">Transmissão</h2>
+              <TransmissoesRoll max="3" />
               <div className="column is-12 has-text-centered">
-                <Link className="btn" to="/publicacoes">
+                <Link className="btn" to="/transmissao">
                   Ver todos
                 </Link>
               </div>

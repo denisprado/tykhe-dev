@@ -17,20 +17,20 @@ export default function NavbarHeroFoot(props) {
               }
             >
               <Link
-                activeClassName="is-active"
-                className="navbar-item"
-                to="/publicacoes"
-              >
-                Publicações
-              </Link>
-            </li>
-            <li>
-              <Link
                 className="navbar-item"
                 activeClassName="is-active"
                 to="/transmissao"
               >
                 Transmissão
+              </Link>
+            </li>
+            <li>
+              <Link
+                activeClassName="is-active"
+                className="navbar-item"
+                to="/publicacoes"
+              >
+                Publicações
               </Link>
             </li>
           </ul>

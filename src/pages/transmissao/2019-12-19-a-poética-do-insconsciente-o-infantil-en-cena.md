@@ -1,7 +1,7 @@
 ---
 templateKey: transmissoes-post
 title: "A poética do insconsciente: o infantil (en) cena"
-date: 2019-12-19T20:42:19.039Z
+date: 2019-12-18T20:42:19.039Z
 description: >
   Quando uma criança adentra ao nosso consultório desorganiza tudo, o
   consultório, os brinquedos e materiais, os nossos saberes e as nossas ideias.

@@ -10,7 +10,7 @@ mainpitch:
     "Estão convidados todos aqueles que possam contribuir para por à prova a
     conformidade desta formação” (Lacan-1964)"
 description: >-
-  “A função da tiquê, do real como encontro - o encontro enquanto que podendo faltar, enquanto que essencialmente é encontro faltoso - (...)”
+  “"Esse real, onde o encontramos? É com efeito de um encontro, de um encontro essencial, que se trata no que a psicanálise descobriu - de um encontro marcado, ao qual somos sempre chamados, com um real que escapole. A Týkhe, nós a traduzimos por encontro do real."”
 intro:
   blurbs:
     - image: /img/coffee.png

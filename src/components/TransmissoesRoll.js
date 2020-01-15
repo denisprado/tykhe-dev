@@ -48,7 +48,7 @@ export const TransmissoesRoll = props => {
   const posts = hasSearchResults ? filteredData : allPosts;
 
   return (
-    <>
+    <div>
       <nav className="panel margin-bottom-3">
         <div className="panel-block has-background-white">
           <p className="control has-icons-left">
@@ -117,7 +117,7 @@ export const TransmissoesRoll = props => {
             </div>
           ))}
       </div>
-    </>
+    </div>
   );
 };
 
