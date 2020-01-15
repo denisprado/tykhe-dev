@@ -4,7 +4,7 @@ image: /img/fortuna-head.jpg
 title: Sobre
 ---
 
-### Sobre o instituto
+### Sobre a Associação
 
 Foi nomeada em referência à Týkhe (pronuncia-se tiquê), deusa da Fortuna, dos bons e maus encontros, que ela distribui arbitrariamente.
 

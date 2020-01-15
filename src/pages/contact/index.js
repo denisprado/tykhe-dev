@@ -36,8 +36,12 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <section className="section margin-bottom-3">
-          <div className=" container">
+        <section
+          className="section margin-bottom-3"
+          heroSize="is-large"
+          NavbarHeroFoot={false}
+        >
+          <div className="container">
             <nav
               className="breadcrumb margin-bottom-3"
               aria-label="breadcrumbs"

@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: TYKHE
+title: TYKHE - Associação de Psicanálise
 image: /img/tykhe-grad.png
 heading: TYKHE - Associação de Psicanálise
 subheading: Associação de Psicanálise
@@ -8,12 +8,9 @@ mainpitch:
   title: TYKHE - Associação de Psicanálise
   description: >
     "Estão convidados todos aqueles que possam contribuir para por à prova a
-    conformidade desta formação” (Lacan-1964)
+    conformidade desta formação” (Lacan-1964)"
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  “A função da tiquê, do real como encontro - o encontro enquanto que podendo faltar, enquanto que essencialmente é encontro faltoso - (...)”
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -66,4 +63,3 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
-

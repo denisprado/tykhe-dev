@@ -16,79 +16,7 @@ export const IndexPageTemplate = ({
   intro
 }) => (
   <div>
-    <div
-      className="full-width-image-home margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `center`,
-        backgroundAttachment: `unset`
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          height: "150px",
-          lineHeight: "1",
-          justifyContent: "space-around",
-          alignItems: "left",
-          flexDirection: "column"
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-            backgroundColor: "rgb(255, 68, 0)",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.35em",
-            opacity: ".85",
-            borderRadius: "10px"
-          }}
-        >
-          <img src={logoBco} alt="Logo TYKHE" width="260px" />
-        </h1>
-      </div>
-    </div>
     <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h2 className="title">{mainpitch.title}</h2>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* <div className="columns">
-                  <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div> */}
-        </div>
-      </div>
       <div className="container">
         <div className="section">
           <div className="columns">
@@ -98,21 +26,6 @@ export const IndexPageTemplate = ({
               <div className="column is-12 has-text-centered">
                 <Link className="btn" to="/publicacoes">
                   Ver todos
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10  is-offset-1">
-              <h2 className="title">Transmissão</h2>
-              <TransmissoesRoll max="3" />
-              <div className="column is-12 has-text-centered">
-                <Link className="btn" to="/transmissao">
-                  Leia Mais
                 </Link>
               </div>
             </div>
@@ -141,6 +54,8 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
+        heroSize="is-large"
+        NavbarHeroFoot={true}
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}

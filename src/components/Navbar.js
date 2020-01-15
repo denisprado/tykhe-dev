@@ -37,7 +37,7 @@ const Navbar = class extends React.Component {
     return (
       <>
         <nav
-          className="navbar has-shadow is-primary"
+          className="navbar container is-primary is-fixed-top"
           role="navigation"
           aria-label="main-navigation"
         >
@@ -61,25 +61,23 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/publicacoes">
-                Publicações
-              </Link>
-              <Link className="navbar-item" to="/transmissao">
-                Transmissão
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
               <Link className="navbar-item" to="/sobre">
                 Sobre
               </Link>
-              <Link className="navbar-item" to="/formacao">
-                Formação
-              </Link>
+
               <Link className="navbar-item" to="/direcao">
                 Direção
               </Link>
-              <Link className="navbar-item margin-right-3" to="/associados">
+              <Link className="navbar-item" to="/associados">
                 Associados
+              </Link>
+            </div>
+            <div className="navbar-end has-text-centered">
+              <Link className="navbar-item" to="/publicacoes">
+                Publicações
+              </Link>
+              <Link className="navbar-item margin-right-3" to="/transmissao">
+                Transmissão
               </Link>
               <Link className="navbar-item" to="/contact">
                 Contato
