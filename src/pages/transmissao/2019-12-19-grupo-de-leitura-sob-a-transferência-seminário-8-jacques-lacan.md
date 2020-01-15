@@ -9,7 +9,7 @@ description: >
   que operamos na transferência. Será a partir dele que lançaremos os dados em
   2020.
 featuredpost: false
-featuredimage: /img/fortuna.jpg
+featuredimage: /img/2-trans-final.jpg
 tags:
   - transferência
   - Jacques Lacan
