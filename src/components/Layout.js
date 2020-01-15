@@ -61,8 +61,12 @@ const TemplateWrapper = ({ children }) => {
             <div className="hero-body">
               {children.props.title && (
                 <div className="container has-text-centered">
-                  <p className="title">{children.props.title}</p>
-                  <p className="subtitle">{children.props.description}</p>
+                  <div className="columns">
+                    <div className="column is-10 is-offset-1">
+                      <p className="title">{children.props.title}</p>
+                      <p className="subtitle">{children.props.description}</p>
+                    </div>
+                  </div>
                 </div>
               )}
             </div>
