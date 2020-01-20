@@ -27,7 +27,7 @@ export default class TransmissoesIndexPage extends React.Component {
 
             <h1 className="title">Transmissão</h1>
             <h2 className="subtitle is-spaced">
-              Palestras, Cursos e outras atividades de transmissão da TYKHE
+              Grupos de leitura, seminários, cursos e atividades.
             </h2>
             <TransmissoesRoll />
           </div>

@@ -60,9 +60,9 @@ const TemplateWrapper = ({ children }) => {
             </div>
             <div className="hero-body">
               {children.props.title && (
-                <div className="container has-text-centered">
+                <div className="container ">
                   <div className="columns">
-                    <div className="column is-10 is-offset-1">
+                    <div className="column is-6 is-offset-1">
                       <p className="title">{children.props.title}</p>
                       <p className="subtitle">{children.props.description}</p>
                     </div>

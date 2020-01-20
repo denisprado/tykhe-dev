@@ -22,7 +22,7 @@ export const IndexPageTemplate = ({
             <div className="column is-10  is-offset-1">
               {/* <h2 className="title">Transmissão</h2> */}
               <h2 className="subtitle is-spaced">
-                Palestras, Cursos e outras atividades de transmissão da TYKHE
+                Grupos de leitura, seminários, cursos e atividades
               </h2>
               <TransmissoesRoll max="3" />
               <div className="column is-12 has-text-centered">
