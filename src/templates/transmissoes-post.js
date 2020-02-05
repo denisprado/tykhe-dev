@@ -5,6 +5,7 @@ import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import PreviewCompatibleImage from "./../components/PreviewCompatibleImage";
 
 export const TransmissoesPostTemplate = ({
   content,
@@ -13,7 +14,8 @@ export const TransmissoesPostTemplate = ({
   tags,
   title,
   helmet,
-  slug
+  slug,
+  featuredimage
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -46,20 +48,31 @@ export const TransmissoesPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
+            <div className="columns">
+              <div className="column is-one-quarter">
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: featuredimage,
+                    alt: `Imagem de destaque para ${title}`
+                  }}
+                />
+                {tags && tags.length ? (
+                  <div style={{ marginTop: `4rem` }}>
+                    <h4>Tags</h4>
+                    <ul className="taglist">
+                      {tags.map(tag => (
+                        <li key={tag + `tag`}>
+                          <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
               </div>
-            ) : null}
+              <div className="column">
+                <PostContent content={content} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -96,6 +109,7 @@ const TransmissoesPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        featuredimage={post.frontmatter.featuredimage}
       />
     </Layout>
   );
@@ -119,6 +133,13 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 980, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
       fields {
         slug

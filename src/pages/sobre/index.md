@@ -14,4 +14,4 @@ Jacques Lacan fez referência a esse termo no Seminário, livro 11, os quatro co
 
 Esse real, onde o encontramos? É com efeito de um encontro, de um encontro essencial, que se trata no que a psicanálise descobriu - de um encontro marcado, ao qual somos sempre chamados, com um real que escapole. A Týkhe, nós a traduzimos por encontro do real.
 
-O real está para além do autômaton, do retorno, da volta, da insistência dos signos aos quais nos vemos comandados pelo princípio do prazer. O real é o que vige sempre por trás do autômaton, e do qual é evidente, em toda a pesquisa de Freud, que é do que ele cuida."FormaSingle-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+O real está para além do autômaton, do retorno, da volta, da insistência dos signos aos quais nos vemos comandados pelo princípio do prazer. O real é o que vige sempre por trás do autômaton, e do qual é evidente, em toda a pesquisa de Freud, que é do que ele cuida.
