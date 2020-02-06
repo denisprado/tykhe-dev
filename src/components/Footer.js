@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import logo from "../img/LogoTYKHE.png";
+import logo from "../img/LogoTYKHE-bco.svg";
 import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
@@ -10,55 +10,33 @@ const Footer = class extends React.Component {
   render() {
     return (
       <footer className="footer has-background-grey-lighter	has-text-black">
-        <div className="content has-text-centered margin-bottom-3">
-          <img src={logo} alt="TYKHE" style={{ width: "14rem" }} />
-        </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
+        <div className="has-text-centered has-background-black has-text-white-ter">
+          <div className="container has-background-black has-text-white-ter margin-4">
             <div className="columns">
               <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/sobre">
-                        Sobre
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
-                  </ul>
+                <section>
+                  <Link to="/" className="menu-item">
+                    <div className="content has-text-centered margin-top-3">
+                      <img
+                        src={logo}
+                        alt="TYKHE"
+                        style={{ width: "12rem", marginTop: "1.5rem" }}
+                      />
+                    </div>
+                  </Link>
                 </section>
               </div>
               <div className="column is-4">
                 <section>
                   <ul className="menu-list">
                     <li>
-                      <Link className="navbar-item" to="/publicacoes">
-                        Publicações
-                      </Link>
+                      <Link to="/sobre">Sobre</Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/transmissao">
-                        Transmissao
-                      </Link>
+                      <Link to="/publicacoes">Publicações</Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contato">
-                        Contato
-                      </Link>
+                      <Link to="/transmissao">Transmissao</Link>
                     </li>
                   </ul>
                 </section>
@@ -66,7 +44,7 @@ const Footer = class extends React.Component {
               <div className="column is-4 has-background-color-grey">
                 <nav className="navbar is-transparent ">
                   <div className="navbar-menu">
-                    <div className="navbar-start ">
+                    <div className="navbar-start">
                       <a
                         title="facebook"
                         className="navbar-item"
@@ -91,6 +69,17 @@ const Footer = class extends React.Component {
                     </div>
                   </div>
                 </nav>
+
+                <ul className="menu-list">
+                  <li>
+                    <Link to="/contato">Contato</Link>
+                  </li>
+                  <li>
+                    <a href="/admin/" target="_blank" rel="noopener noreferrer">
+                      Admin
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

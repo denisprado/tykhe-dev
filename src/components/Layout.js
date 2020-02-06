@@ -81,7 +81,7 @@ const TemplateWrapper = ({ children }) => {
             </div>
           </section>
         )}
-        <div>{children}</div>
+        {children}
         <Footer />
       </div>
     )

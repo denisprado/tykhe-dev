@@ -49,7 +49,7 @@ export const TransmissoesPostTemplate = ({
               {title}
             </h1>
             <div className="columns">
-              <div className="column is-one-quarter">
+              <div className="column is-one-third">
                 <PreviewCompatibleImage
                   imageInfo={{
                     image: featuredimage,
@@ -69,7 +69,7 @@ export const TransmissoesPostTemplate = ({
                   </div>
                 ) : null}
               </div>
-              <div className="column">
+              <div className="column is-two-third">
                 <PostContent content={content} />
               </div>
             </div>

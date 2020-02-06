@@ -54,22 +54,31 @@ export const BlogRoll = props => {
 
   return (
     <>
-      <nav className="panel margin-bottom-3">
-        <div className="panel-block has-background-white">
-          <p className="control has-icons-left">
-            <input
-              className="input"
-              type="text"
-              id="filter"
-              placeholder="Pesquise em nossas publicações."
-              onChange={handleInputChange}
-            />
-            <span className="icon is-left">
-              <i className="fas fa-search" aria-hidden="true"></i>
-            </span>
-          </p>
+      <div className="columns margin-bottom-3">
+        <div className="column is-4">
+          <h1 className="title">Publicações</h1>
+          <h2 className="subtitle is-spaced">Publicações da TYKHE</h2>
         </div>
-      </nav>
+        <div className="column is-4"></div>
+        <div className="column is-4">
+          <div className="panel">
+            <div className="panel-block">
+              <p className="control has-icons-left">
+                <input
+                  className="input"
+                  type="text"
+                  id="filter"
+                  placeholder="Pesquise em nossas publicações."
+                  onChange={handleInputChange}
+                />
+                <span className="icon is-left">
+                  <i className="fas fa-search" aria-hidden="true"></i>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="columns is-multiline">
         {posts &&
