@@ -167,6 +167,7 @@ collections:
           - { label: Image, name: image, widget: image }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Description", name: "description", widget: "text" }
       - file: "src/pages/associados/index.md"
         label: "Associados"
         name: "associados"
@@ -180,6 +181,7 @@ collections:
           - { label: Image, name: image, widget: image }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Description", name: "description", widget: "text" }
       - file: "src/pages/direcao/index.md"
         label: "Direção"
         name: "direcao"
@@ -193,3 +195,4 @@ collections:
           - { label: Image, name: image, widget: image }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Description", name: "description", widget: "text" }

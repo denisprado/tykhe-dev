@@ -2,9 +2,11 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import NavbarHeroFoot from "../components/NavbarHeroFoot";
 import "./all.sass";
+import NavbarSobreHeroFoot from "../components/NavbarSobreHeroFoot";
+import NavbarHeroFoot from "../components/NavbarHeroFoot";
 import useSiteMetadata from "./SiteMetadata";
+import logo from "../img/LogoTYKHE-bco.svg";
 import { withPrefix } from "gatsby";
 import { Link } from "gatsby";
 
@@ -62,14 +64,19 @@ const TemplateWrapper = ({ children }) => {
               {children.props.title && (
                 <div className="container ">
                   <div className="columns">
-                    <div className="column is-6 is-offset-1">
-                      <p className="title">{children.props.title}</p>
+                    <div className="column has-text-centered is-3 is-offset-1">
+                      <img src={logo} alt="TYKHE" style={{ width: "18rem" }} />
+                    </div>
+                    <div className="column is-6">
                       <p className="subtitle">{children.props.description}</p>
                     </div>
                   </div>
                 </div>
               )}
             </div>
+            {children.props.NavbarSobreHeroFoot ? (
+              <NavbarSobreHeroFoot page={children.props.title} />
+            ) : null}
             {children.props.NavbarHeroFoot ? (
               <NavbarHeroFoot page={children.props.title} />
             ) : null}

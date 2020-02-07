@@ -40,11 +40,13 @@ const AboutPage = ({ data }) => {
   return (
     <Layout>
       <AboutPageTemplate
-        heroSize="is-medium"
+        heroSize="is-medium "
         NavbarHeroFoot={false}
+        NavbarSobreHeroFoot={true}
         contentComponent={HTMLContent}
-        title={post.frontmatter.title}
         content={post.html}
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
         image={post.frontmatter.image}
       />
     </Layout>
@@ -63,6 +65,7 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        description
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
