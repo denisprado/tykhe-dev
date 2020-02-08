@@ -103,7 +103,7 @@ export const BlogRoll = props => {
                 </div>
                 <div className="card-content">
                   <p className="title is-4">{post.frontmatter.title}</p>
-                  <div className="content">{post.excerpt}</div>
+                  <div className="content">{post.frontmatter.description}</div>
 
                   <div className="content">
                     {post.frontmatter.tags && post.frontmatter.tags.length
