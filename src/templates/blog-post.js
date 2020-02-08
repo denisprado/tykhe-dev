@@ -9,11 +9,9 @@ import Content, { HTMLContent } from "../components/Content";
 export const BlogPostTemplate = ({
   content,
   contentComponent,
-  description,
   tags,
   title,
-  helmet,
-  slug
+  helmet
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -34,7 +32,7 @@ export const BlogPostTemplate = ({
             </a>
           </li>
           <li className="is-active">
-            <a aria-current="page" href="/${slug}">
+            <a aria-current="page" href="/{slug}">
               {title}
             </a>
           </li>

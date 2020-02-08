@@ -1,14 +1,13 @@
+import { withPrefix } from "gatsby";
 import React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import "./all.sass";
-import NavbarSobreHeroFoot from "../components/NavbarSobreHeroFoot";
 import NavbarHeroFoot from "../components/NavbarHeroFoot";
-import useSiteMetadata from "./SiteMetadata";
+import NavbarSobreHeroFoot from "../components/NavbarSobreHeroFoot";
 import logo from "../img/LogoTYKHE-bco.svg";
-import { withPrefix } from "gatsby";
-import { Link } from "gatsby";
+import "./all.sass";
+import useSiteMetadata from "./SiteMetadata";
 
 const TemplateWrapper = ({ children }) => {
   const { props } = children;

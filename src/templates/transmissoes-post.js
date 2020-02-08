@@ -1,20 +1,18 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { kebabCase } from "lodash";
-import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
-import Layout from "../components/Layout";
+import { kebabCase } from "lodash";
+import PropTypes from "prop-types";
+import React from "react";
+import Helmet from "react-helmet";
 import Content, { HTMLContent } from "../components/Content";
+import Layout from "../components/Layout";
 import PreviewCompatibleImage from "./../components/PreviewCompatibleImage";
 
 export const TransmissoesPostTemplate = ({
   content,
   contentComponent,
-  description,
   tags,
   title,
   helmet,
-  slug,
   featuredimage
 }) => {
   const PostContent = contentComponent || Content;
@@ -36,7 +34,7 @@ export const TransmissoesPostTemplate = ({
             </a>
           </li>
           <li className="is-active">
-            <a aria-current="page" href="/${slug}">
+            <a aria-current="page" href="/{slug}">
               {title}
             </a>
           </li>

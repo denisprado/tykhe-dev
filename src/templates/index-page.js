@@ -1,19 +1,10 @@
 import { graphql, Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import BlogRoll from "../components/BlogRoll";
 import Layout from "../components/Layout";
 import TransmissoesRoll from "../components/TransmissoesRoll";
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro
-}) => (
+export const IndexPageTemplate = () => (
   <div>
     <section className="section section--gradient">
       <div className="container">

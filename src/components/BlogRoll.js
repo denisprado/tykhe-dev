@@ -1,8 +1,8 @@
-import React, { setState } from "react";
-import PropTypes from "prop-types";
-import { Link, graphql, StaticQuery } from "gatsby";
-import PreviewCompatibleImage from "./PreviewCompatibleImage";
+import { graphql, Link, StaticQuery } from "gatsby";
 import { kebabCase } from "lodash";
+import PropTypes from "prop-types";
+import React from "react";
+import PreviewCompatibleImage from "./PreviewCompatibleImage";
 
 export const BlogRoll = props => {
   const { data } = props;
