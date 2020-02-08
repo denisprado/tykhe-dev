@@ -25,7 +25,11 @@ collections:
           default: "blog-post",
         }
       - { label: "Título", name: "title", widget: "string" }
-      - { label: "Descrição (aparece nos cards), name: "description", widget: "text" }
+      - {
+          label: "Descrição (aparece nos cards)",
+          name: "description",
+          widget: "text",
+        }
       - { label: "Imagem em Destaque", name: "featuredimage", widget: image }
       - { label: "Texto", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
@@ -57,7 +61,11 @@ collections:
           default: "transmissoes-post",
         }
       - { label: "Título", name: "title", widget: "string" }
-      - { label: "Descrição (aparece nos cards), name: "description", widget: "text" }
+      - {
+          label: "Descrição (aparece nos cards)",
+          name: "description",
+          widget: "text",
+        }
       - { label: "Imagem em Destaque", name: "featuredimage", widget: image }
       - { label: "Texto", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
@@ -92,7 +100,11 @@ collections:
             }
           - { label: "Título", name: "title", widget: "string" }
           - { label: "Texto", name: "body", widget: "markdown" }
-          - { label: "Descrição (aparece ao lado do logo)", name: "description", widget: "text" }
+          - {
+              label: "Descrição (aparece ao lado do logo)",
+              name: "description",
+              widget: "text",
+            }
       - file: "src/pages/associados/index.md"
         label: "Associados"
         name: "associados"
@@ -105,7 +117,11 @@ collections:
             }
           - { label: "Título", name: "title", widget: "string" }
           - { label: "Texto", name: "body", widget: "markdown" }
-          - { label: "Descrição (aparece ao lado do logo)", name: "description", widget: "text" }
+          - {
+              label: "Descrição (aparece ao lado do logo)",
+              name: "description",
+              widget: "text",
+            }
       - file: "src/pages/direcao/index.md"
         label: "Direção"
         name: "direcao"
@@ -118,4 +134,8 @@ collections:
             }
           - { label: "Título", name: "title", widget: "string" }
           - { label: "Texto", name: "body", widget: "markdown" }
-          - { label: "Descrição (aparece ao lado do logo)", name: "description", widget: "text" }
+          - {
+              label: "Descrição (aparece ao lado do logo)",
+              name: "description",
+              widget: "text",
+            }
