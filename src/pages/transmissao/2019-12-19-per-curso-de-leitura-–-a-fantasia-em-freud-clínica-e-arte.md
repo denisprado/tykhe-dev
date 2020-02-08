@@ -9,11 +9,7 @@ description: >
   para o manejo clínico. A via pela qual escolhemos percorrer para fazer esta
   articulação é a da arte, utilizando de textos de peças de teatro e de
   literatura, a partir dos quais trabalharemos sobre como se dá a estruturação
-  da fantasia. Iniciaremos nosso percurso pela distinção entre teoria da
-  sedução, primeira teorização de Freud sobre a causação da neurose, e a teoria
-  da fantasia, que revoluciona a concepção sobre a estruturação psíquica.
-  Percorreremos ao longo do ano para movimentar a questão: por que Freud coloca
-  as criações humanas, em especial a arte, na íntima articulação com a fantasia?
+  da fantasia.
 featuredpost: true
 featuredimage: /img/4-clinica-final.jpg
 tags:
