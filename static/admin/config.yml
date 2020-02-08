@@ -24,13 +24,12 @@ collections:
           widget: "hidden",
           default: "blog-post",
         }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
-      - { label: "Featured Image", name: "featuredimage", widget: image }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição (aparece nos cards), name: "description", widget: "text" }
+      - { label: "Imagem em Destaque", name: "featuredimage", widget: image }
+      - { label: "Texto", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Data de Publicação", name: "date", widget: "datetime" }
       - {
           label: "Categoria",
           name: "cat",
@@ -57,13 +56,12 @@ collections:
           widget: "hidden",
           default: "transmissoes-post",
         }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
-      - { label: "Featured Image", name: "featuredimage", widget: image }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição (aparece nos cards), name: "description", widget: "text" }
+      - { label: "Imagem em Destaque", name: "featuredimage", widget: image }
+      - { label: "Texto", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Data de Publicação", name: "date", widget: "datetime" }
 
   - name: "pages"
     label: "Páginas"
@@ -80,8 +78,6 @@ collections:
               default: "index-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
           - { label: Description, name: description, widget: string }
 
       - file: "src/pages/sobre/index.md"
@@ -94,10 +90,9 @@ collections:
               widget: "hidden",
               default: "about-page",
             }
-          - { label: Image, name: image, widget: image }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Texto", name: "body", widget: "markdown" }
+          - { label: "Descrição (aparece ao lado do logo)", name: "description", widget: "text" }
       - file: "src/pages/associados/index.md"
         label: "Associados"
         name: "associados"
@@ -108,10 +103,9 @@ collections:
               widget: "hidden",
               default: "about-page",
             }
-          - { label: Image, name: image, widget: image }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Texto", name: "body", widget: "markdown" }
+          - { label: "Descrição (aparece ao lado do logo)", name: "description", widget: "text" }
       - file: "src/pages/direcao/index.md"
         label: "Direção"
         name: "direcao"
@@ -122,7 +116,6 @@ collections:
               widget: "hidden",
               default: "about-page",
             }
-          - { label: Image, name: image, widget: image }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Texto", name: "body", widget: "markdown" }
+          - { label: "Descrição (aparece ao lado do logo)", name: "description", widget: "text" }
