@@ -106,9 +106,6 @@ export const TransmissoesRoll = props => {
 
                   <footer className="card-footer">
                     <div className="card-footer-item">
-                      <time dateTime="2016-1-1">{post.frontmatter.date} </time>
-                    </div>
-                    <div className="card-footer-item">
                       <Link to={post.fields.slug}>Continue Lendo →</Link>
                     </div>
                   </footer>
