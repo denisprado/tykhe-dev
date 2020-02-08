@@ -10,7 +10,7 @@ export default class TransmissoesIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="columns">
-              <div className="column is-offset-1">
+              <div className="column">
                 <nav
                   className="breadcrumb margin-bottom-3"
                   aria-label="breadcrumbs"
