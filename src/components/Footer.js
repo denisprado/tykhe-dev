@@ -5,82 +5,69 @@ import logo from "../img/LogoTYKHE-bco.svg";
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-grey-lighter	has-text-black">
-        <div className="has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter margin-4">
-            <div className="columns">
-              <div className="column is-4">
-                <section>
-                  <Link to="/" className="menu-item">
-                    <div className="content has-text-centered margin-top-3">
-                      <img
-                        src={logo}
-                        alt="TYKHE"
-                        style={{ width: "12rem", marginTop: "1.5rem" }}
-                      />
-                    </div>
-                  </Link>
-                </section>
-              </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/sobre">Sobre</Link>
-                    </li>
-                    <li>
-                      <Link to="/publicacoes">Publicações</Link>
-                    </li>
-                    <li>
-                      <Link to="/transmissao">Transmissao</Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4 has-background-color-grey">
-                <nav className="navbar is-transparent ">
-                  <div className="navbar-menu">
-                    <div className="navbar-start">
-                      <a
-                        title="facebook"
-                        className="navbar-item"
-                        href="https://facebook.com"
-                      >
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a
-                        title="twitter"
-                        className="navbar-item"
-                        href="https://twitter.com"
-                      >
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                      <a
-                        title="instagram"
-                        className="navbar-item"
-                        href="https://instagram.com"
-                      >
-                        <i className="fab fa-instagram"></i>
-                      </a>
-                    </div>
+      <>
+        <footer className="footer has-text-centered has-background-dark	 ">
+          <div className="container margin-bottom-3 has-background-dark	 ">
+            <div className="content has-centered-text">
+              <div>
+                <Link to="/" className="menu-item">
+                  <div className="content has-text-centered margin-top-3">
+                    <img
+                      src={logo}
+                      alt="TYKHE"
+                      style={{ width: "12rem", marginTop: "1.5rem" }}
+                    />
                   </div>
-                </nav>
-
-                <ul className="menu-list">
-                  <li>
+                </Link>
+              </div>
+              <div>
+                <Link to="/sobre">Sobre</Link>{" "}
+                <span className=" has-text-gray">○ </span>
+                <Link to="/publicacoes">Publicações</Link> ○{" "}
+                <Link to="/transmissao">Transmissao</Link>
+              </div>
+              <div>
+                <div className="has-text-centered">
+                  <a title="facebook" href="https://facebook.com">
+                    <i className="fab fa-facebook-f"></i>
+                  </a>{" "}
+                  <a title="twitter" href="https://twitter.com">
+                    <i className="fab fa-twitter"></i>
+                  </a>{" "}
+                  <a title="instagram" href="https://instagram.com">
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                  <p>
                     <Link to="/contato">Contato</Link>
-                  </li>
-                  <li>
-                    <a href="/admin/" target="_blank" rel="noopener noreferrer">
-                      Admin
-                    </a>
-                  </li>
-                </ul>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
+        </footer>
+
+        <div className="content has-background-grey-light	">
+          <div className="container">
+            <nav className="level">
+              <div className="level-left has-text-centered">
+                <div className="level-item">
+                  <a href="/admin/" target="_blank" rel="noopener noreferrer">
+                    Admin
+                  </a>
+                </div>
+              </div>
+              <div className="level-right has-text-centered">
+                <div className="level-item">
+                  Website por{" "}
+                  <a target="_blank" hef="http://www.denisforigo.com">
+                    Denis Forigo
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
         </div>
-      </footer>
+      </>
     );
   }
 };

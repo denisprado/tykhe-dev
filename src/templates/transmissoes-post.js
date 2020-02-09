@@ -40,35 +40,37 @@ export const TransmissoesPostTemplate = ({
           </li>
         </ul>
       </nav>
-      <div className="container content has-background-white">
-        <div className="columns">
-          <div className="column">
-            <h1 className="title is-size-2-tablet is-size-4-mobile is-bold-light">
-              {title}
-            </h1>
-            <div className="columns">
-              <div className="column is-one-third">
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: featuredimage,
-                    alt: `Imagem de destaque para ${title}`
-                  }}
-                />
-                {tags && tags.length ? (
-                  <div style={{ marginTop: `4rem` }}>
-                    <h4>Tags</h4>
-                    <ul className="taglist">
-                      {tags.map(tag => (
-                        <li key={tag + `tag`}>
-                          <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ) : null}
-              </div>
-              <div className="column is-two-third">
-                <PostContent content={content} />
+      <div className="container">
+        <div className="content">
+          <div className="columns box">
+            <div className="column">
+              <h1 className="title is-size-2-tablet is-size-4-mobile is-bold-light">
+                {title}
+              </h1>
+              <div className="columns">
+                <div className="column is-one-third">
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: featuredimage,
+                      alt: `Imagem de destaque para ${title}`
+                    }}
+                  />
+                  {tags && tags.length ? (
+                    <div style={{ marginTop: `4rem` }}>
+                      <h4>Tags</h4>
+                      <ul className="taglist">
+                        {tags.map(tag => (
+                          <li key={tag + `tag`}>
+                            <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : null}
+                </div>
+                <div className="column is-two-third">
+                  <PostContent content={content} />
+                </div>
               </div>
             </div>
           </div>

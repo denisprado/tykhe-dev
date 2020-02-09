@@ -12,10 +12,7 @@ $black: #363636
 $body-color: $black
 $space: 1
 $section-padding:	3rem 3rem
-$footer-color: false
 
-table
-  width: 70%
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -26,6 +23,9 @@ table
 
 .content 
   padding: 1rem
+
+.container .content
+  padding: 0
 
 .card-content .content
   padding: 0
@@ -114,39 +114,8 @@ table
   fill: $tykhe-primary-invert
 .navbar-brand .navbar-item.logo
   padding: 1rem
-footer.footer
-  padding: 3rem 0rem 0rem
-  background-color: transparent
 
-@import "~bulma"
-
-//Menu overrides
-$menu-item-color: $tykhe-primary-invert
-$menu-item-hover-color: $tykhe-primary-invert !important
-$menu-item-hover-background-color: transparent
-$menu-item-active-color: $tykhe-primary-invert
-$menu-item-active-background-color:	$black
-$menu-list-border-left: 1px solid $tykhe-primary-invert
-$menu-label-color: $white-ter
-$menu-item-hover-color: $tykhe-primary-invert
-
-.menu-label
-  font-size: 1em !important
-  text-align: left
-.menu-list
-  list-style: none !important
-  text-align: left
-.social
-  padding: 2em
-.social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $white-ter
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
+@import "~bulma"  
 
 // blog roll
 .blog-list-item.is-featured
@@ -213,3 +182,21 @@ $navbar-height: 5rem
 .hero.is-primary .tabs.is-boxed li.is-active a
   background-color: $tykhe-background
   font-weight: bold
+
+.footer 
+  background-color: #0c0f0f
+  color: grey
+
+
+.footer a, .level a 
+  color: whitesmoke
+  padding: 0.5rem
+  display: inline-block
+
+.footer a:hover
+  background: transparent
+  opacity: 0.75
+
+.footer-top-shadow 
+  box-shadow: 0 1px 3px rgba(10, 10, 10, 0.1)
+
