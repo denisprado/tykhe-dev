@@ -10,7 +10,7 @@ const Footer = class extends React.Component {
           <div className="container margin-bottom-3 has-background-dark	 ">
             <div className="content has-centered-text">
               <div>
-                <Link to="/" className="menu-item">
+                <Link to="/">
                   <div className="content has-text-centered margin-top-3">
                     <img
                       src={logo}
@@ -38,7 +38,7 @@ const Footer = class extends React.Component {
                     <i className="fab fa-instagram"></i>
                   </a>
                   <p>
-                    <Link to="/contato">Contato</Link>
+                    <Link to="/contact">Contato</Link>
                   </p>
                 </div>
               </div>
