@@ -4,6 +4,7 @@
 // Config vars
 $tykhe-primary: #35647d
 $tykhe-background: #EFEFEF
+$tykhe-primary-hover: #54829C
 $tykhe-primary-invert: #fff
 
 $primary: $tykhe-primary
@@ -200,3 +201,6 @@ $navbar-height: 5rem
 .footer-top-shadow 
   box-shadow: 0 1px 3px rgba(10, 10, 10, 0.1)
 
+.navbar.is-primary .navbar-start > a.navbar-item:focus, .navbar.is-primary .navbar-start > a.navbar-item:hover, .navbar.is-primary .navbar-start > a.navbar-item.is-active, .navbar.is-primary .navbar-end > a.navbar-item:focus, .navbar.is-primary .navbar-end > a.navbar-item:hover, .navbar.is-primary .navbar-end > a.navbar-item.is-active 
+    background-color: $tykhe-primary-hover
+    color: $tykhe-primary-invert
