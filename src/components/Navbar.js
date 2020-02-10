@@ -105,21 +105,15 @@ const Navbar = class extends React.Component {
             <a
               title="facebook"
               className="navbar-item"
-              href="https://facebook.com"
+              href="https://www.facebook.com/TykhePsicanalise"
             >
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a
-              title="twitter"
-              className="navbar-item"
-              href="https://twitter.com"
-            >
-              <i className="fab fa-twitter"></i>
-            </a>
+
             <a
               title="instagram"
               className="navbar-item"
-              href="https://instagram.com"
+              href="https://www.instagram.com/tykhepsicanalise/"
             >
               <i className="fab fa-instagram"></i>
             </a>

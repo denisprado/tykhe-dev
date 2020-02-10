@@ -28,13 +28,16 @@ const Footer = class extends React.Component {
               </div>
               <div>
                 <div className="has-text-centered">
-                  <a title="facebook" href="https://facebook.com">
+                  <a
+                    title="facebook"
+                    href="https://www.facebook.com/TykhePsicanalise"
+                  >
                     <i className="fab fa-facebook-f"></i>
                   </a>{" "}
-                  <a title="twitter" href="https://twitter.com">
-                    <i className="fab fa-twitter"></i>
-                  </a>{" "}
-                  <a title="instagram" href="https://instagram.com">
+                  <a
+                    title="instagram"
+                    href="https://www.instagram.com/tykhepsicanalise/"
+                  >
                     <i className="fab fa-instagram"></i>
                   </a>
                   <p>
