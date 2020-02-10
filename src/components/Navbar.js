@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import logo from "../img/LogoTYKHE-bco.png";
+import logoAzul from "../img/LogoTYKHE-azul.png";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -42,18 +43,10 @@ const Navbar = class extends React.Component {
         <div className="navbar-brand is-large">
           {this.state.hasLogo ? (
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="TYKHE" style={{ width: "8rem" }} />
+              <img src={logo} alt="TYKHE" style={{ width: "6rem" }} />
             </Link>
           ) : (
-            <Link to="/" className="navbar-item" title="Logo">
-              <i
-                className="fa fa-home"
-                style={{
-                  width: "4rem",
-                  textAlign: "center"
-                }}
-              ></i>
-            </Link>
+            <img src={logoAzul} alt="TYKHE" style={{ width: "8rem" }} />
           )}
           {/* Hamburger menu */}
           <div
@@ -80,42 +73,46 @@ const Navbar = class extends React.Component {
             </Link>
             <Link
               activeClassName="is-active"
-              className="navbar-item margin-right-3"
+              className="navbar-item"
               to="/transmissao"
             >
               Transmissão
             </Link>
           </div>
           <div className="navbar-end has-text-centered">
-            <Link
-              activeClassName="is-active"
-              className="navbar-item"
-              to="/sobre"
-            >
-              Sobre
-            </Link>
-
-            <Link
-              activeClassName="is-active"
-              className="navbar-item"
-              to="/direcao"
-            >
-              Direção
-            </Link>
-            <Link
-              activeClassName="is-active"
-              className="navbar-item"
-              to="/comissoes"
-            >
-              Comissões
-            </Link>
-            <Link
-              activeClassName="is-active"
-              className="navbar-item"
-              to="/associados"
-            >
-              Associados
-            </Link>
+            <div className="navbar-item has-dropdown is-hoverable">
+              <a className="navbar-link">Institucional</a>
+              <div className="navbar-dropdown">
+                <Link
+                  activeClassName="is-active"
+                  className="navbar-item"
+                  to="/sobre"
+                >
+                  Sobre o Instituto
+                </Link>
+                <Link
+                  activeClassName="is-active"
+                  className="navbar-item"
+                  to="/direcao"
+                >
+                  Direção
+                </Link>
+                <Link
+                  activeClassName="is-active"
+                  className="navbar-item"
+                  to="/comissoes"
+                >
+                  Comissões
+                </Link>
+                <Link
+                  activeClassName="is-active"
+                  className="navbar-item"
+                  to="/associados"
+                >
+                  Associados
+                </Link>
+              </div>
+            </div>
             <Link
               activeClassName="is-active"
               className="navbar-item"
