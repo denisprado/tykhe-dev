@@ -29,6 +29,15 @@ export default function NavbarSobreHeroFoot(props) {
                 Direção Atual
               </Link>
             </li>
+            <li className={page === "Comissões" && "is-active"}>
+              <Link
+                className="navbar-item"
+                activeClassName="is-active"
+                to="/comissoes"
+              >
+                Comissões
+              </Link>
+            </li>
             <li className={page === "Associados" && "is-active"}>
               <Link
                 className="navbar-item"

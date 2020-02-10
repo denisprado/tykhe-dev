@@ -35,6 +35,13 @@ const Footer = class extends React.Component {
                     <i className="fab fa-facebook-f"></i>
                   </a>{" "}
                   <a
+                    title="youtube"
+                    className="navbar-item"
+                    href="https://www.youtube.com/channel/UCG4TY-7a1GwZA1i_19yc4GA"
+                  >
+                    <i className="fab fa-youtube"></i>
+                  </a>
+                  <a
                     title="instagram"
                     href="https://www.instagram.com/tykhepsicanalise/"
                   >

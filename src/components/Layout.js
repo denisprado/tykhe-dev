@@ -57,7 +57,7 @@ const TemplateWrapper = ({ children }) => {
         {props && props.heroSize ? (
           <section className={"hero is-primary is-bold " + props.heroSize}>
             <div className="hero-head">
-              <Navbar />
+              <Navbar hasLogo={false} />
             </div>
             <div className="hero-body">
               {children.props.title && (
@@ -83,7 +83,7 @@ const TemplateWrapper = ({ children }) => {
         ) : (
           <section className={"hero is-primary is-bold is-small"}>
             <div className="hero-head">
-              <Navbar />
+              <Navbar hasLogo={true} />
             </div>
           </section>
         )}

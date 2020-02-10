@@ -1,12 +1,14 @@
 import { Link } from "gatsby";
 import React from "react";
 import logo from "../img/LogoTYKHE-bco.png";
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       active: false,
-      navBarActiveClass: ""
+      navBarActiveClass: "",
+      hasLogo: this.props.hasLogo
     };
   }
 
@@ -38,9 +40,21 @@ const Navbar = class extends React.Component {
         aria-label="main-navigation"
       >
         <div className="navbar-brand is-large">
-          <Link to="/" className="navbar-item" title="Logo">
-            <img src={logo} alt="TYKHE" style={{ width: "8rem" }} />
-          </Link>
+          {this.state.hasLogo ? (
+            <Link to="/" className="navbar-item" title="Logo">
+              <img src={logo} alt="TYKHE" style={{ width: "8rem" }} />
+            </Link>
+          ) : (
+            <Link to="/" className="navbar-item" title="Logo">
+              <i
+                className="fa fa-home"
+                style={{
+                  width: "4rem",
+                  textAlign: "center"
+                }}
+              ></i>
+            </Link>
+          )}
           {/* Hamburger menu */}
           <div
             className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -91,6 +105,13 @@ const Navbar = class extends React.Component {
             <Link
               activeClassName="is-active"
               className="navbar-item"
+              to="/comissoes"
+            >
+              Comissões
+            </Link>
+            <Link
+              activeClassName="is-active"
+              className="navbar-item"
               to="/associados"
             >
               Associados
@@ -102,6 +123,7 @@ const Navbar = class extends React.Component {
             >
               Contato
             </Link>
+
             <a
               title="facebook"
               className="navbar-item"
@@ -109,7 +131,13 @@ const Navbar = class extends React.Component {
             >
               <i className="fab fa-facebook-f"></i>
             </a>
-
+            <a
+              title="youtube"
+              className="navbar-item"
+              href="https://www.youtube.com/channel/UCG4TY-7a1GwZA1i_19yc4GA"
+            >
+              <i className="fab fa-youtube"></i>
+            </a>
             <a
               title="instagram"
               className="navbar-item"
