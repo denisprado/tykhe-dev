@@ -56,7 +56,7 @@ const Footer = class extends React.Component {
           </div>
         </footer>
 
-        <div className="content has-background-grey-light	">
+        <div className="has-background-grey-light	">
           <div className="container">
             <nav className="level">
               <div className="level-left has-text-centered">
