@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import logo from "../img/LogoTYKHE-bco.png";
 import logoAzul from "../img/LogoTYKHE-azul.png";
+import PageTransition from "gatsby-plugin-page-transitions";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -42,9 +43,11 @@ const Navbar = class extends React.Component {
       >
         <div className="navbar-brand is-large">
           {this.state.hasLogo ? (
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="TYKHE" style={{ width: "6rem" }} />
-            </Link>
+            <PageTransition>
+              <Link to="/" className="navbar-item" title="Logo">
+                <img src={logo} alt="TYKHE" style={{ width: "6rem" }} />
+              </Link>
+            </PageTransition>
           ) : (
             <Link to="/" className="navbar-item" title="Logo">
               <img src={logoAzul} alt="TYKHE" style={{ width: "6rem" }} />
@@ -61,6 +64,7 @@ const Navbar = class extends React.Component {
             <span />
           </div>
         </div>
+
         <div
           id="navMenu"
           className={`navbar-menu ${this.state.navBarActiveClass}`}
