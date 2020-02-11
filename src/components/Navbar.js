@@ -88,7 +88,7 @@ const Navbar = class extends React.Component {
                   className="navbar-item"
                   to="/sobre"
                 >
-                  Sobre o Instituto
+                  Sobre a TYKHE
                 </Link>
                 <Link
                   activeClassName="is-active"
