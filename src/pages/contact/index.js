@@ -40,21 +40,6 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="columns">
               <div className="column">
-                <nav
-                  className="breadcrumb margin-bottom-3"
-                  aria-label="breadcrumbs"
-                >
-                  <ul>
-                    <li>
-                      <a href="/">TYKHE</a>
-                    </li>
-                    <li className="is-active">
-                      <a aria-current="page" href="/contato">
-                        contato
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
                 <h1 className="title">Contato</h1>
                 <h2 className="subtitle is-spaced">
                   Envie sua mensagem ou saiba como chegar até nossa sede.

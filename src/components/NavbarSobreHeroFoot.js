@@ -47,6 +47,15 @@ export default function NavbarSobreHeroFoot(props) {
                 Associados
               </Link>
             </li>
+            <li className={page === "Parcerias" && "is-active"}>
+              <Link
+                className="navbar-item"
+                activeClassName="is-active"
+                to="/parcerias"
+              >
+                Parcerias
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
