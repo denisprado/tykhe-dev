@@ -5,6 +5,15 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-plugin-page-transitions",
+      options: {
+        transitionTime: 1000,
+        defaultStyle: {
+          transition: "cubic-bezier(1, 2, 2,1)"
+        }
+      }
+    },
     "gatsby-plugin-sass",
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support

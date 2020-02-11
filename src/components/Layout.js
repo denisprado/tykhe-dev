@@ -8,6 +8,7 @@ import NavbarSobreHeroFoot from "../components/NavbarSobreHeroFoot";
 import logo from "../img/LogoTYKHE-bco.svg";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
+import PageTransition from "gatsby-plugin-page-transitions";
 
 const TemplateWrapper = ({ children }) => {
   const { props } = children;
@@ -54,40 +55,50 @@ const TemplateWrapper = ({ children }) => {
             content={`${withPrefix("/")}img/og-image.jpg`}
           />
         </Helmet>
+
         {props && props.heroSize ? (
-          <section className={"hero is-primary is-bold " + props.heroSize}>
-            <div className="hero-head">
-              <Navbar hasLogo={false} />
-            </div>
-            <div className="hero-body">
-              {children.props.title && (
-                <div className="container ">
-                  <div className="columns">
-                    <div className="column has-text-centered is-3 is-offset-1">
-                      <img src={logo} alt="TYKHE" style={{ width: "18rem" }} />
-                    </div>
-                    <div className="column is-6">
-                      <p className="subtitle">{children.props.description}</p>
+          <>
+            <section className={"hero is-primary is-bold " + props.heroSize}>
+              <div className="hero-head">
+                <Navbar hasLogo={false} />
+              </div>
+              <div className="hero-body">
+                {children.props.title && (
+                  <div className="container ">
+                    <div className="columns">
+                      <div className="column has-text-centered is-3 is-offset-1">
+                        <img
+                          src={logo}
+                          alt="TYKHE"
+                          style={{ width: "18rem" }}
+                        />
+                      </div>
+                      <div className="column is-6">
+                        <p className="subtitle">{children.props.description}</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              )}
-            </div>
-            {children.props.NavbarSobreHeroFoot ? (
-              <NavbarSobreHeroFoot page={children.props.title} />
-            ) : null}
-            {children.props.NavbarHeroFoot ? (
-              <NavbarHeroFoot page={children.props.title} />
-            ) : null}
-          </section>
+                )}
+              </div>
+              {children.props.NavbarSobreHeroFoot ? (
+                <NavbarSobreHeroFoot page={children.props.title} />
+              ) : null}
+              {children.props.NavbarHeroFoot ? (
+                <NavbarHeroFoot page={children.props.title} />
+              ) : null}
+            </section>
+            {children}
+          </>
         ) : (
-          <section className={"hero is-primary is-bold is-small"}>
-            <div className="hero-head">
-              <Navbar hasLogo={true} />
-            </div>
-          </section>
+          <>
+            <section className={"hero is-primary is-bold is-small"}>
+              <div className="hero-head">
+                <Navbar hasLogo={true} />
+              </div>
+            </section>
+            <PageTransition>{children}</PageTransition>
+          </>
         )}
-        {children}
         <Footer />
       </div>
     )
