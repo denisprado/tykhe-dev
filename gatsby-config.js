@@ -10,7 +10,8 @@ module.exports = {
       options: {
         transitionTime: 900,
         defaultStyle: {
-          transition: "all 900ms cubic-bezier( 0.950, 0.550,0.050,0.445)"
+          transition: "all 900ms ease-in-out",
+          opacity: 1
         },
         transitionStyles: {
           entering: { opacity: 1 },
