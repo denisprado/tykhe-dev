@@ -8,9 +8,15 @@ module.exports = {
     {
       resolve: "gatsby-plugin-page-transitions",
       options: {
-        transitionTime: 1000,
+        transitionTime: 900,
         defaultStyle: {
-          transition: "cubic-bezier(1, 2, 2,1)"
+          transition: "all 900ms cubic-bezier( 0.950, 0.550,0.050,0.445)"
+        },
+        transitionStyles: {
+          entering: { opacity: 1 },
+          entered: { opacity: 1 },
+          exiting: { opacity: 0 },
+          exited: { opacity: 0 }
         }
       }
     },

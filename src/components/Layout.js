@@ -87,7 +87,6 @@ const TemplateWrapper = ({ children }) => {
                 <NavbarHeroFoot page={children.props.title} />
               ) : null}
             </section>
-            {children}
           </>
         ) : (
           <>
@@ -96,9 +95,9 @@ const TemplateWrapper = ({ children }) => {
                 <Navbar hasLogo={true} />
               </div>
             </section>
-            <PageTransition>{children}</PageTransition>
           </>
         )}
+        <PageTransition>{children}</PageTransition>
         <Footer />
       </div>
     )
