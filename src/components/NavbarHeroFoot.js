@@ -21,7 +21,7 @@ export default function NavbarHeroFoot(props) {
                 activeClassName="is-active"
                 to="/transmissao"
               >
-                Transmissão
+                Atividades
               </Link>
             </li>
             <li>

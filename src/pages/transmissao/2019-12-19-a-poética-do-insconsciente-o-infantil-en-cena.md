@@ -9,7 +9,7 @@ description: >
   pais e ou professores. No decorrer dos atendimentos põe em cena e encena o que
   de fato está operando e fazendo eclodir o sintoma.
 featuredpost: false
-featuredimage: /img/fortuna.jpg
+featuredimage: /img/6-INFANTIL.jpg
 tags:
   - infantil
 ---

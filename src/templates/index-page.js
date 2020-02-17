@@ -10,7 +10,7 @@ export const IndexPageTemplate = () => (
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-10  is-offset-1">
+            <div className="column is-10 is-offset-1">
               {/* <h2 className="title">Transmissão</h2> */}
               <h2 className="subtitle is-spaced">
                 Grupos de leitura, seminários, cursos e atividades

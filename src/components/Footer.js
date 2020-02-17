@@ -5,7 +5,7 @@ import logo from "../img/LogoTYKHE-bco.svg";
 const Footer = class extends React.Component {
   render() {
     return (
-      <>
+      <div>
         <footer className="footer has-text-centered has-background-dark	 ">
           <div className="container margin-bottom-3 has-background-dark	 ">
             <div className="content has-centered-text">
@@ -77,7 +77,7 @@ const Footer = class extends React.Component {
             </nav>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 };
