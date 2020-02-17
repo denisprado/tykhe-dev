@@ -13,17 +13,16 @@ date: 2020-02-17T13:46:39.769Z
 cat:
   - fa-file-text-o
 ---
+
+por _Luís Américo Valadão Queiro_
+
 \- Trata-se de um doente, internado por tentativa de suicídio. Faz uso de drogas para esquecer que é homem.
 
 Fiquei a procurar o quê a primeira leitura, o primeiro contato com esta apresentação, me deixou. Não sei se inerte, ou vago, mas arrisco em dizer que o fim do relato daquele encontro traz um pessimismo tanto ao que resta de futuro ao sujeito, quanto, na mesma proporção, pelo que ali, entre o doente e o Dr. Lacan, não se deu.
 
+1- A explicação inútil
 
-
-1-  A explicação inútil
-
-
-
-É um hábito, não um método, acontecer que, diante de um compromisso com algum tipo de trabalho, ou elaboração, em psicanálise, chega um instante  em que tudo que leio ou escuto, e muitas vezes, o que sonho, me suscita, me faz tomar notas, a ponto de de toda essa massa passar a fazer parte de um texto, de uma correnteza, na qual procuro não me afogar.
+É um hábito, não um método, acontecer que, diante de um compromisso com algum tipo de trabalho, ou elaboração, em psicanálise, chega um instante em que tudo que leio ou escuto, e muitas vezes, o que sonho, me suscita, me faz tomar notas, a ponto de de toda essa massa passar a fazer parte de um texto, de uma correnteza, na qual procuro não me afogar.
 
 Foi assim que me apareceu Clarice Lispector para esse encontro. Por acaso. Lia algum dos seus elogios aos bichos, presença forte em seus escritos. A propósito do conto “Uma galinha” (está em “Laços de família”), a escritora nos diz: “ali estava o gosto que sempre tivera por bichos, uma das formas acessíveis de gente. Creio que também este conto vem de meu amor por bichos; parece-me que sinto os bichos como uma das coisas Ainda muito próximas de Deus, material que não inventou a si mesmo, coisa ainda quente do próprio nascimento; e, no entanto, coisa já se pondo imediatamente de pé, e já vivendo toda, e em cada minuto vivendo de uma vez, nunca aos poucos apenas, nunca se poupando, nunca se gastando.” (Lispector, in Todos os Contos, p.646)
 
@@ -41,15 +40,15 @@ Não é o que acontece nessa apresentação. Nos perguntamos se há em algum lug
 
 Pois bem, que mito esse relato de apresentação encarna?
 
-Quanto ao mito em questão, a obra de Marcel Détienne ( Os mestres da verdade na Grécia arcaica, 1988), nos é oportuna. De que nos conta o autor , em breves palavras? Na cultura grega, bem antes do início da era do logos definir sua relação com a verdade, no século VI a.C; bem antes, a verdade era coisa de adivinhos, poetas, sofistas, os mestres da verdade. Nessa tradição, que se refere essencialmente ao mito, a verdade estaria ligada ao exercício de um tipo de fala dotada de eficácia pelo seu simples proferimento, pelo próprio ato de dizer; e que, por si só, era capaz de constituir um plano de realidade. Ainda naquela tradição, a verdade era uma palavra de memória, que não se opunha à mentira, mas, justamente, ao esquecimento.  Velamento e desvelamento. Cabe à verdade desvelar o que o esquecimento oculta. O mito realiza sua eficácia através da estrutura de sua narrativa. Numa cultura de tradição oral, sua transmissão e sobrevivência estão na condição de sua narrativa habitar uma memória coletiva, na medida em que alguns dos seus, poetas, adivinhos, contadores, emprestarem a voz e a memória para transmitir sua verdade.
+Quanto ao mito em questão, a obra de Marcel Détienne ( Os mestres da verdade na Grécia arcaica, 1988), nos é oportuna. De que nos conta o autor , em breves palavras? Na cultura grega, bem antes do início da era do logos definir sua relação com a verdade, no século VI a.C; bem antes, a verdade era coisa de adivinhos, poetas, sofistas, os mestres da verdade. Nessa tradição, que se refere essencialmente ao mito, a verdade estaria ligada ao exercício de um tipo de fala dotada de eficácia pelo seu simples proferimento, pelo próprio ato de dizer; e que, por si só, era capaz de constituir um plano de realidade. Ainda naquela tradição, a verdade era uma palavra de memória, que não se opunha à mentira, mas, justamente, ao esquecimento. Velamento e desvelamento. Cabe à verdade desvelar o que o esquecimento oculta. O mito realiza sua eficácia através da estrutura de sua narrativa. Numa cultura de tradição oral, sua transmissão e sobrevivência estão na condição de sua narrativa habitar uma memória coletiva, na medida em que alguns dos seus, poetas, adivinhos, contadores, emprestarem a voz e a memória para transmitir sua verdade.
 
 Pois bem, temos um sujeito, cujo mito é esquecer. Esquecer que é homem.
 
-Uma questão que faço, a título de exercício, é a seguinte, se há um querer esquecer a qualquer custo, de fato é uma recusa de uma realidade que, mesmo assim, ele sabe. Se tento esquecer que sou homem, quero esquecer da ideia, dos seus representantes que esse significante implica; ou tento esquecer do fato de ser homem, porque aquilo que sinto na pele me desmente? E não se trata somente do órgão genital. O paciente o reconhece como tal. Ele não deixa dúvidas quanto a isso. No entanto, o que ele recua, ou recusa, é a divisão do sujeito que implica o ser sexual. Ele recusa que aquele órgão torne-se aquilo que  o significante o faz ser, um instrumento.
+Uma questão que faço, a título de exercício, é a seguinte, se há um querer esquecer a qualquer custo, de fato é uma recusa de uma realidade que, mesmo assim, ele sabe. Se tento esquecer que sou homem, quero esquecer da ideia, dos seus representantes que esse significante implica; ou tento esquecer do fato de ser homem, porque aquilo que sinto na pele me desmente? E não se trata somente do órgão genital. O paciente o reconhece como tal. Ele não deixa dúvidas quanto a isso. No entanto, o que ele recua, ou recusa, é a divisão do sujeito que implica o ser sexual. Ele recusa que aquele órgão torne-se aquilo que o significante o faz ser, um instrumento.
 
-A despeito de uma vocação prematura (...) que cada um sente para o seu sexo” (Sem.19, p16),  segundo lacan, esse paciente desde muito cedo em sua vida, incontestavelmente, nos testemunha uma outra coisa bem distinta: diante do espelho, em silêncio, o prazer difuso na pele em revestir-se, em ocultar o sexo. O gozo se espraia pela pele do corpo e não se condensa no órgão.
+A despeito de uma vocação prematura (...) que cada um sente para o seu sexo” (Sem.19, p16), segundo lacan, esse paciente desde muito cedo em sua vida, incontestavelmente, nos testemunha uma outra coisa bem distinta: diante do espelho, em silêncio, o prazer difuso na pele em revestir-se, em ocultar o sexo. O gozo se espraia pela pele do corpo e não se condensa no órgão.
 
-Permitam-me embutir aqui uma pequena vinheta de uma sessão clínica, de um sujeito em análise e que, pode nos favorecer,  creio eu, a tratar desse desejo de esquecer, mito fundamental nessa apresentação de pacientes em questão. O ponto que gostaria de trazer é o seguinte, ela (é uma mulher) me dizia que talvez fosse muito agressiva, e que era sensível em seu tom de voz. Segundo ela, haveria varias maneiras de dizer “-Seu cu!” Desta expressão de rejeição a qualquer apelo do Outro, declinou três variações. Chegou a dizer, inclusive, achando muita graça, que ganhou de uma amiga um quadrinho de azulejo com esse dito. Segundo ela própria, essa expressão era sua marca registrada. Acontece que o cu em questão era o seu, não o dela. A propósito, fez questão de esclarecer, nunca experimentou relações anais. As associações a levaram para outras paragens, no caso, os órgãos genitais. Um ano e meio mais velha que o irmão, desde muito cedo, considerou absolutamente natural a diferença sexual. Meninas têm armário; menino, cabide. Foi como aprendeu a diferença sexual. E todos, decididamente, têm cu. Diria que, tal diferença, nunca havia sido para si uma questão. Sempre gostou de brincar com os meninos, e isso não era problema. No entanto, toda essa naturalidade sustentada, não lhe franqueou nada, ou quase nada quanto à sua sexualidade. Como acontecia? Diante dessa pergunta, ela ficou perplexa consigo em não conseguir colocar palavras. Era um bloqueio. As associações seguiram e, então, lembrou da seguinte história: sua família tinha o costume de colocar na porta do quarto da criança, desde o nascimento, uma cartolina com uma palavra escrita. Era seu pai quem o fazia. Em sua porta estava escrito: “clausura”. Era a porta fechada de seu armário?
+Permitam-me embutir aqui uma pequena vinheta de uma sessão clínica, de um sujeito em análise e que, pode nos favorecer, creio eu, a tratar desse desejo de esquecer, mito fundamental nessa apresentação de pacientes em questão. O ponto que gostaria de trazer é o seguinte, ela (é uma mulher) me dizia que talvez fosse muito agressiva, e que era sensível em seu tom de voz. Segundo ela, haveria varias maneiras de dizer “-Seu cu!” Desta expressão de rejeição a qualquer apelo do Outro, declinou três variações. Chegou a dizer, inclusive, achando muita graça, que ganhou de uma amiga um quadrinho de azulejo com esse dito. Segundo ela própria, essa expressão era sua marca registrada. Acontece que o cu em questão era o seu, não o dela. A propósito, fez questão de esclarecer, nunca experimentou relações anais. As associações a levaram para outras paragens, no caso, os órgãos genitais. Um ano e meio mais velha que o irmão, desde muito cedo, considerou absolutamente natural a diferença sexual. Meninas têm armário; menino, cabide. Foi como aprendeu a diferença sexual. E todos, decididamente, têm cu. Diria que, tal diferença, nunca havia sido para si uma questão. Sempre gostou de brincar com os meninos, e isso não era problema. No entanto, toda essa naturalidade sustentada, não lhe franqueou nada, ou quase nada quanto à sua sexualidade. Como acontecia? Diante dessa pergunta, ela ficou perplexa consigo em não conseguir colocar palavras. Era um bloqueio. As associações seguiram e, então, lembrou da seguinte história: sua família tinha o costume de colocar na porta do quarto da criança, desde o nascimento, uma cartolina com uma palavra escrita. Era seu pai quem o fazia. Em sua porta estava escrito: “clausura”. Era a porta fechada de seu armário?
 
 Cito Lacan: “Nessas condições, para ter acesso ao outro sexo, realmente é preciso pagar o preço, o da pequena diferença, que passa enganosamente para o real por intermédio do órgão, justamente no que ele deixa de ser tomado como tal e, ao mesmo tempo, revela o que significa o órgão. Um órgão só é instrumento por meio disto em que todo instrumento se baseia: é que ele é um significante.” (Sem. 19, p17). E foi o significante do pai que encerrou a discussão e não abriu sua porta.
 
@@ -57,13 +56,11 @@ Cito Lacan: “Nessas condições, para ter acesso ao outro sexo, realmente é p
 
 Quanto ao paciente da apresentação, não temos esses significantes estampados. Ou, ao menos, não chegaram a comparecer. Ao contrário, temos aqui, numa expressão que freud utilizou no texto do Fetichismo, uma escotomização do significante. Pois bem, é o que diria Lacan no seu Seminário de dezembro de 1971 ( Sem 19), cinco anos antes dessa apresentação: “É como significante que o transexual não o quer mais, e não como órgão. No que ele padece de um erro, que é justamente o erro comum. Sua paixão, a do transexual, é a loucura de querer livrar-se desse erro, o erro comum que não vê que o significante é o gozo e que o falo é apenas o significado. O transexual não quer mais ser significado, como falo, pelo discurso sexual, o qual, como enuncio, é impossível. Existe apenas um erro, que é querer forçar pela cirurgia o discurso sexual, que, na medida em que é impossível, é a passagem do real” (Sem.19, p17).
 
-O erro seria o de sustentar com toda segurança, isto é, sem divisão, o discurso sexual?  Se sim, não seria essa situação que amputaria, para aquele transexual, o discurso analítico? Poderíamos chamar tal situação na qual o sujeito se encontra, de uma “foraclusão do dizer” (Sem.19, p22)? Justamente pelo fato de alguma coisa não poder ser dita, só se pode concluir uma indagação sobre o real. Lacan faz uma menção à “face psicótica desses casos” de transexualismo no Seminário 18. (p.30)
+O erro seria o de sustentar com toda segurança, isto é, sem divisão, o discurso sexual? Se sim, não seria essa situação que amputaria, para aquele transexual, o discurso analítico? Poderíamos chamar tal situação na qual o sujeito se encontra, de uma “foraclusão do dizer” (Sem.19, p22)? Justamente pelo fato de alguma coisa não poder ser dita, só se pode concluir uma indagação sobre o real. Lacan faz uma menção à “face psicótica desses casos” de transexualismo no Seminário 18. (p.30)
 
 Por que o discurso analítico se vê amputado nesse caso? Porque o tratamento analítico reabre o desejo de saber, com sua origem pulsional, e a transferência encontraria nesse desejo de saber o que a mobiliza — eis porque ela é condicionada pelo significante do sujeito suposto saber.
 
-
-
-  2- A propósito do procedimento cirúrgico.
+2- A propósito do procedimento cirúrgico.
 
 Retorno àquela frase de Lacan, do Sem.19: “Existe apenas um erro, que é querer forçar pela cirurgia o discurso sexual, que, na medida em que é impossível, é a passagem do real”
 
@@ -81,13 +78,13 @@ Esse procedimento seria um convite à perversão, uma vez que o desejo fica esse
 
 No discurso da ciência, o saber que ele comunica sutura o sujeito e o desimplica dessa mesma comunicação. Cabe ao psicanalista reintroduzir o sujeito na consideração científica, isto é, seu ponto de verdade. Mas por que Lacan desistiu frente a esse caso?
 
-A experiência mostra que não há medida comum entre a verdade do paciente e o saber que o analista elabora a partir dessa verdade; que há entre ambos um abismo que não pode ser preenchido, nem por todos os relatos de casos que se queira. Isso seria o horror do analista diante de seu ato, nos termos de Lacan, testemunha de sua castração? Chama a atenção o recuo pessimista de Lacan diante do caso. É como se dissesse aos seus colegas: “— Desistam! A luta é desigual.” Um dos seus colegas ali, identificado na transcrição da apresentação como ADW (seria Alain Didier-Weill?), acusou esse travo amargo de impotência: “— Isso conduz a uma impotência de nossa  parte, quase tão insuportável como a que ele mesmo vive” (p.124). Parece que nos deparamos com um saber falho, um impensável com o qual a operação analítica gira em falso.
+A experiência mostra que não há medida comum entre a verdade do paciente e o saber que o analista elabora a partir dessa verdade; que há entre ambos um abismo que não pode ser preenchido, nem por todos os relatos de casos que se queira. Isso seria o horror do analista diante de seu ato, nos termos de Lacan, testemunha de sua castração? Chama a atenção o recuo pessimista de Lacan diante do caso. É como se dissesse aos seus colegas: “— Desistam! A luta é desigual.” Um dos seus colegas ali, identificado na transcrição da apresentação como ADW (seria Alain Didier-Weill?), acusou esse travo amargo de impotência: “— Isso conduz a uma impotência de nossa parte, quase tão insuportável como a que ele mesmo vive” (p.124). Parece que nos deparamos com um saber falho, um impensável com o qual a operação analítica gira em falso.
 
-Quanto a Freud, no que diz respeito à transmissão da verdade do caso, ele se depara — já nos Estudos sobre a Histeria — que seus relatos mais se assemelhavam a novelas, do que a uma descrição científica. Mas não nega essa dose de romance. Antes, ele descobre que a ficção a realiza.
+Quanto a Freud, no que diz respeito à transmissão da verdade do caso, ele se depara — já nos Estudos sobre a Histeria — que seus relatos mais se assemelhavam a novelas, do que a uma descrição científica. Mas não nega essa dose de romance. Antes, ele descobre que a ficção a realiza.
 
 Se há algo que se pode esperar do psicanalista não é tanto um conceito da verdade, com o quê se pode agarrar, mas certa maneira de notar sua presença insistente, de situar o lugar de onde ela, a verdade, vem. Isso já é pregnante, já é capaz de gerar consequências.
 
-Em uma apresentação de pacientes, o desafio para o analista é  situar-se numa instância, a fim de favorecer as posições subjetivas do paciente.
+Em uma apresentação de pacientes, o desafio para o analista é situar-se numa instância, a fim de favorecer as posições subjetivas do paciente.
 
 Por exemplo, por que a insistência de Lacan em tratar, com o máximo de minúcia, as relações do sujeito com as mulheres de sua vida? Uma a uma. “É preciso nos darmos conta de que o que define o homem é sua relação com a mulher, e vice-versa. (...) Mas o fato de a mulher ser a verdade do homem, essa velha história proverbial quando é preciso compreender alguma coisa, o cherchez la femme \[busquem a mulher, ou procurem a mulher] a que naturalmente damos uma interpretação policial, isso bem poderia ser algo totalmente diferente, ou seja, que, para ter a verdade de um homem, seria bom saber quem é sua mulher” (Sem18, p34).
 
@@ -97,11 +94,9 @@ Aliás, a propósito desse sujeito, o sonho revela sua identificação literal c
 
 Não teria sido esse todo o esforço de Lacan nessa apresentação, situar uma posição subjetiva, a posição do inconsciente?
 
-
-
 3- Apresentador de apresentação: o anotador
 
-Aquilo que leio de uma apresentação não é a mimesis, que me reacende o claro instante da apresentação; o que leio não é a descrição cristalina de uma coisa, em linguagem objetivável, apreensível, a apresentação. Se fosse  assim o que seria a linguagem senão um filme realista que se vê o que se lê. É uma escrita do anotador. Foi quem tomou notas. Talvez estejamos diante do retrato sem voz da estenografia.
+Aquilo que leio de uma apresentação não é a mimesis, que me reacende o claro instante da apresentação; o que leio não é a descrição cristalina de uma coisa, em linguagem objetivável, apreensível, a apresentação. Se fosse assim o que seria a linguagem senão um filme realista que se vê o que se lê. É uma escrita do anotador. Foi quem tomou notas. Talvez estejamos diante do retrato sem voz da estenografia.
 
 Deixem-me fazer essa pequena homenagem às anotações. É, de fato, notável a riqueza semântica de nota. Tomo notas a perseguir a cadência de uma conversa que nada sei onde vai dar. Ao preço de tudo tentar notar, já não haverei mais de distinguir nas anotações, nada que seja digno de nota. Nem sequer uma de rodapé. É que quem quer todas as notas fica sempre sem nenhuma. Toda nota é, justamente, um pequeno destaque, um ponto na massa maior das coisas, uma marca de distinção, um nódulo de atenção, que mais dá a ver, do que se faz ver. A nota não está acostumada a receber tanta nota. Como naquele samba, a nota é só.
 
@@ -113,9 +108,9 @@ O anotador apanha—traduz—e—reescreve, num triz de tempo, em que desloca a 
 
 O motivo dessa minha observação é porque comecei nessa história de apresentação como anotador. Foi nessa qualidade a minha primeira participação nesse grande encontro, ou desencontro, chamado apresentação de pacientes. Encontro anotado. Encontro marcado pra perder.
 
-_Referências bibliográficas:_
+_Referências bibliográficas:_
 
-Détienne, M. Os mestres da verdade na Grécia arcaica, 1988.
+Détienne, M. Os mestres da verdade na Grécia arcaica, 1988.
 
 Freud, S. (1905). Três ensaios sobre a teoria da sexualidade.
 
