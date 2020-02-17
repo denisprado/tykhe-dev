@@ -13,8 +13,7 @@ date: 2020-02-17T13:46:39.769Z
 cat:
   - fa-file-text-o
 ---
-
-por _Luís Américo Valadão Queiro_
+por _Luís Américo Valadão Queiroz_
 
 \- Trata-se de um doente, internado por tentativa de suicídio. Faz uso de drogas para esquecer que é homem.
 
