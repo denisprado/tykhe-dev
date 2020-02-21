@@ -8,19 +8,17 @@ export const IndexPageTemplate = () => (
   <div>
     <section className="section section--gradient">
       <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              {/* <h2 className="title">Transmissão</h2> */}
-              <h2 className="subtitle is-spaced">
-                Grupos de leitura, seminários, cursos e atividades
-              </h2>
-              <TransmissoesRoll max="3" />
-              <div className="column is-12 has-text-centered">
-                <Link className="btn" to="/transmissao">
-                  Ver todos
-                </Link>
-              </div>
+        <div className="columns">
+          <div className="column is-10 is-offset-1">
+            {/* <h2 className="title">Transmissão</h2> */}
+            <h2 className="subtitle is-spaced">
+              Grupos de leitura, seminários, cursos e atividades
+            </h2>
+            <TransmissoesRoll max="3" />
+            <div className="column is-12 has-text-centered">
+              <Link className="btn" to="/transmissao">
+                Ver todos
+              </Link>
             </div>
           </div>
         </div>
