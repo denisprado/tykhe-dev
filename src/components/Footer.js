@@ -56,27 +56,26 @@ const Footer = class extends React.Component {
           </div>
         </footer>
 
-        <div className="has-background-grey-light	">
-          <div className="container">
-            <nav className="level">
-              <div className="level-left has-text-centered">
-                <div className="level-item">
-                  <a href="/admin/" target="_blank" rel="noopener noreferrer">
-                    Admin
-                  </a>
-                </div>
-              </div>
-              <div className="level-right has-text-centered">
-                <div className="level-item">
-                  Website por{" "}
-                  <a target="_blank" hef="http://www.denisforigo.com">
-                    Denis Forigo
-                  </a>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </div>
+        <nav className="level has-background-grey-light	">
+          <p className="level-item has-text-centered">
+            <a
+              className="has-text-grey"
+              href="/admin/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Admin
+            </a>{" "}
+            | Website por{" "}
+            <a
+              className="has-text-grey-dark"
+              target="_blank"
+              hef="http://www.denisforigo.com"
+            >
+              Denis Forigo
+            </a>
+          </p>
+        </nav>
       </div>
     );
   }

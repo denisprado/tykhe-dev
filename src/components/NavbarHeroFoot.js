@@ -7,8 +7,8 @@ export default function NavbarHeroFoot(props) {
   const { page } = props;
 
   return (
-    <div className="hero-foot ">
-      <nav className="tabs is-boxed is-fullwidth  is-medium">
+    <div className="hero-foot">
+      <nav className="tabs is-boxed is-fullwidth is-medium">
         <div className="container">
           <ul>
             <li
