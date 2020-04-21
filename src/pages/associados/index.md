@@ -1,6 +1,5 @@
 ---
 templateKey: about-page
-image: /img/fortuna-head.jpg
 title: Associados
 description: >
   “Esse real, onde o encontramos? É com efeito de um encontro, de um encontro
@@ -11,6 +10,7 @@ description: >
 
 | Nome                           | Celular          |
 | :----------------------------- | :--------------- |
+| Alex Munis Ferreira            | (19) 99624.1206  |
 | Antonio Moreira Lima Jr.       | (19) 99604.4622  |
 | Bruno Henrique Bengel de Paula | (11) 99955-9051  |
 | Cibele Kiss Contin Pucci       | (19) 98820.7177  |
