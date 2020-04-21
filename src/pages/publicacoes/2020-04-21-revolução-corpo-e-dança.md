@@ -23,8 +23,7 @@ cat:
 ---
 _Por Deborah Steinberg_
 
-Revolução, corpo e dança
-Deborah Steinberg
+
 
 “Cairão as almas das peles
 Este tema chegou colérico,
