@@ -1,35 +1,11 @@
 ---
 templateKey: blog-post
 title: 'Revolução, corpo e dança'
-description: >-
-  O texto que se segue foi apresentado no Encontro: Políticas da psicanálise,
-  ocorrido em junho de 2019.
-
-  Nesse encontro, em sua abertura, foi apresentado o documentário: "No intenso
-  agora" de João Moreira Salles. 
-
-  O documentário trata de um eixo narrativo principal, as revoluções da década
-  de 60. Foi realizado à partir de documentos e arquivos os quais, dentre
-  alguns,  estavam registros de uma viagem à China de Mao Tse Tung feita pela
-  mãe do diretor; e outros, de maio de 68 na França e Tchecoslováquia, assim
-  como no Brasil. 
-
-  E foi à partir deste filme-documentário que os trabalhos, todos eles, foram
-  realizados, inclusive este que segue chamado Revolução, corpo e dança.
-
-  Desejo a todos uma ótima leitura!
-
-  Deborah 
-
-
+description: |-
   “Cairão as almas das peles
-
   Este tema chegou colérico,
-
   Ordenou:
-
   - Dá-me
-
   a rédea dos dias!”
 featuredimage: /img/tykhe-publicacoes-sem-imagem.png
 tags:
@@ -47,7 +23,12 @@ cat:
 ---
 _Por Deborah Steinberg_
 
-
+O texto que se segue foi apresentado no Encontro: Políticas da psicanálise, ocorrido em junho de 2019.
+Nesse encontro, em sua abertura, foi apresentado o documentário: "No intenso agora" de João Moreira Salles. 
+O documentário trata de um eixo narrativo principal, as revoluções da década de 60. Foi realizado à partir de documentos e arquivos os quais, dentre alguns,  estavam registros de uma viagem à China de Mao Tse Tung feita pela mãe do diretor; e outros, de maio de 68 na França e Tchecoslováquia, assim como no Brasil. 
+E foi à partir deste filme-documentário que os trabalhos, todos eles, foram realizados, inclusive este que segue chamado Revolução, corpo e dança.
+Desejo a todos uma ótima leitura!
+Deborah 
 
 “Cairão as almas das peles
 Este tema chegou colérico,
