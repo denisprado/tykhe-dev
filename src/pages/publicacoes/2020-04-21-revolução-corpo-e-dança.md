@@ -90,11 +90,19 @@ No filme, aquela cena na China, no meio da revolução maoísta, as crianças n�
 Bibliografia
 
 Arendt, Hanna- Sobre a revolução
+
 Birman, Joel- Cartografias do feminino
+
 Kehl, Maria Rita- 7 ou 8 ensaios sobre o grupo Corpo
+
 Lacan, Jacques- Seminário 17. O avesso da psicanálise.
+
 Maiakoviski-  Sobre isto
+
 Miller, Jussara- A escuta do corpo
+
 Paz, Octavio- Os filhos do barro
+
 Vianna, Klauss- A dança
+
 Weill, Alain Didier- Invocações
