@@ -10,7 +10,7 @@ description: >
 
 | Nome                           | Celular          |
 | :----------------------------- | :--------------- |
-| Alex Munis Ferreira            | (19) 99624.1206  |
+| Alex Muniz Ferreira            | (19) 99624.1206  |
 | Antonio Moreira Lima Jr.       | (19) 99604.4622  |
 | Bruno Henrique Bengel de Paula | (11) 99955-9051  |
 | Cibele Kiss Contin Pucci       | (19) 98820.7177  |
