@@ -21,7 +21,7 @@ date: 2020-04-21T18:16:27.263Z
 cat:
   - fa-file-text-o
 ---
-Por Deborah Steinberg
+_Por Deborah Steinberg_
 
 Revolução, corpo e dança
 Deborah Steinberg
