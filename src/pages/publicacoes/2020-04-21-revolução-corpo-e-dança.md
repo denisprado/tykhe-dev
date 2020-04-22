@@ -7,7 +7,7 @@ description: |-
   Ordenou:
   - Dá-me
   a rédea dos dias!”
-featuredimage: /img/05.jpg
+featuredimage: /img/tykhe-logo_página_2.png
 tags:
   - psicanálise campinas
   - psicanálise lacaniana
@@ -21,6 +21,8 @@ date: 2020-04-21T18:16:27.263Z
 cat:
   - fa-file-text-o
 ---
+![](/img/salto-28.jpg)
+
 _Por Deborah Steinberg_
 
 O texto que se segue foi apresentado no Encontro: Políticas da psicanálise, ocorrido em junho de 2019.
@@ -96,7 +98,7 @@ No filme, aquela cena na China, no meio da revolução maoísta, as crianças n�
 
 Bibliografia
 
-Arendt, Hanna- Sobre a revolução
+Arendt, Hannah- Sobre a revolução
 
 Birman, Joel- Cartografias do feminino
 
