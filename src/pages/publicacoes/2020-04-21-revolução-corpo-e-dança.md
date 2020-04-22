@@ -7,7 +7,7 @@ description: |-
   Ordenou:
   - Dá-me
   a rédea dos dias!”
-featuredimage: /img/tykhe-publicacoes-sem-imagem.png
+featuredimage: /img/05.jpg
 tags:
   - psicanálise campinas
   - psicanálise lacaniana
