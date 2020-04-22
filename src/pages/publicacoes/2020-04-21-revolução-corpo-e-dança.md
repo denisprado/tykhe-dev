@@ -21,7 +21,7 @@ date: 2020-04-21T18:16:27.263Z
 cat:
   - fa-file-text-o
 ---
-![](/img/salto-28.jpg)
+![]()
 
 _Por Deborah Steinberg_
 
