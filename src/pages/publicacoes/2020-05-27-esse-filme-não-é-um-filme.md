@@ -18,12 +18,16 @@ Um texto provocativo que me levantou a seguinte questão: O que temos feito com 
 Dispositivos como a Seção Clínica e o Cartel são ótimas oportunidades de trazer para a discussão as dificuldades e os percalços da prática e da formação. Oferecem a oportunidade de estabelecer um outro tipo de laço entre nós.
 
 Mas, por que esses dispositivos, muitas vezes,  fazem alguns analistas recuarem e até mesmo se privarem diante dessa possibilidade?
+
+
 Esse texto é um ótimo convite para essa reflexão. 
 Boa leitura!
 
 Cibele Kiss
 
-# Esse filme não é um filme
+\_\_\_\_\_\_\_\_\_\_\_\__
+
+
 
 _Por Luís Américo Valadão Queiroz_
 
