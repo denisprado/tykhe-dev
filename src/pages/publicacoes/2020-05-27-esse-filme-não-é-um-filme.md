@@ -15,6 +15,8 @@ cat:
 O texto a seguir, escrito por meu amigo Luís Américo, foi apresentado no encontro Políticas da Psicanálise em junho de 2019. O documentário "No intenso agora" de João Moreira Salles foi exibido na abertura daquela ocasião.
 
 Um texto provocativo que me levantou a seguinte questão: O que temos feito com os impasses dos psicanalistas dentro das instituições? Aliás, esses impasses e a divisão do analista tem espaço dentro delas?
+
+
 Dispositivos como a Seção Clínica e o Cartel são ótimas oportunidades de trazer para a discussão as dificuldades e os percalços da prática e da formação. Oferecem a oportunidade de estabelecer um outro tipo de laço entre nós.
 
 Mas, por que esses dispositivos, muitas vezes,  fazem alguns analistas recuarem e até mesmo se privarem diante dessa possibilidade?
