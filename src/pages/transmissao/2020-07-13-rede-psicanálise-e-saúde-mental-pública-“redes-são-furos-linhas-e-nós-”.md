@@ -20,7 +20,7 @@ tags:
   - psicanalise
   - psicanalisefreudiana
   - psicanaliselacaniana
-date: 2020-07-13T13:05:26.360Z
+date: 2020-03-19T13:05:26.360Z
 ---
 \[Re]Existindo nesse contexto político e ético com a atuação direta e indireta dos associados na Rede de Saúde Mental Pública de Campinas e Região esta Associação de Psicanálise está mantendo um espaço de construção de laços de trabalho e pesquisa sob a Temática  Psicanálise e Saúde Mental Pública.
 
