@@ -101,6 +101,8 @@ Também as alucinações deverão ser correlacionadas à fala, uma vez que, na a
 
 Referências bibliográficas
 
+Freud, S. (\[1900] 2019). “A interpretação dos sonhos”. In Obras completas, volume 4. Tradução Paulo César de Souza. Companhia Das Letras.
+
 FREUD, S. (\[1911-1913] 2010). _“Observações psicanalíticas sobre um caso de                               paranoia relatado em autobiografia (“O caso Schreber”)_. In Obras completas, vol. 10. Trad. Paulo César Sousa. Cia. Das Letras.
 
 GAY, P. (\[1988] 1995). _“Freud”_. Trad. Denise Bottmann. Cia das Letras.
