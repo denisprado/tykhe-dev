@@ -7,16 +7,15 @@ description: >
   marcado, ao qual somos sempre chamados, com um real que escapole. A Týkhe, nós
   a traduzimos por encontro do real.”
 ---
-
 | Nome                           | Celular          |
-| :----------------------------- | :--------------- |
+| ------------------------------ | ---------------- |
 | Alex Muniz Ferreira            | (19) 99624.1206  |
 | Antonio Moreira Lima Jr.       | (19) 99604.4622  |
 | Bruno Henrique Bengel de Paula | (11) 99955-9051  |
 | Cibele Kiss Contin Pucci       | (19) 98820.7177  |
 | Clóvis Castro dos Santos       | (19) 99119.8888  |
 | Daniel Mondoni                 | (19) 99771.0517  |
-| Danilo Alves da Cruz           | (19) 98202.1658  |
+| Danilo Alves da Cruz           | (19) 98278-3688  |
 | Deborah Steinberg              | (19) 99139.6837  |
 | Eduardo Elias de Almeida       | (11) 99903.7668  |
 | Gabriela Finazzi de Carvalho   | (19) 99128.0119  |
