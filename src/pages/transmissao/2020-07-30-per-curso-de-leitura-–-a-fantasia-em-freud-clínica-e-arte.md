@@ -1,6 +1,6 @@
 ---
 templateKey: transmissoes-post
-title: '(Per)curso de leitura – A fantasia em Freud: clínica e arte'
+title: '2º SEMESTRE 2020 (Per)curso de leitura – A fantasia em Freud: clínica e arte'
 description: >
   Neste semestre o percurso tomará como ponto de partida a relação da fantasia
   com a realidade psíquica, presente na “Interpretação dos Sonhos” (1900) e
