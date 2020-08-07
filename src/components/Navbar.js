@@ -25,11 +25,11 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: "is-active"
-            })
+            navBarActiveClass: "is-active"
+          })
           : this.setState({
-              navBarActiveClass: ""
-            });
+            navBarActiveClass: ""
+          });
       }
     );
   };
@@ -49,10 +49,10 @@ const Navbar = class extends React.Component {
               </Link>
             </PageTransition>
           ) : (
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logoAzul} alt="TYKHE" style={{ width: "6rem" }} />
-            </Link>
-          )}
+              <Link to="/" className="navbar-item" title="Logo">
+                <img src={logoAzul} alt="TYKHE" style={{ width: "6rem" }} />
+              </Link>
+            )}
           {/* Hamburger menu */}
           <div
             className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -128,6 +128,13 @@ const Navbar = class extends React.Component {
                   to="/comissoes"
                 >
                   Comissões
+                </Link>
+                <Link
+                  activeClassName="is-active"
+                  className="navbar-item"
+                  to="/acolhimento"
+                >
+                  Comissão de Acolhimento
                 </Link>
                 <Link
                   activeClassName="is-active"
