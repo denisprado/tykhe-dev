@@ -94,6 +94,14 @@ const Navbar = class extends React.Component {
                 >
                   Secção Clínica
                 </Link>
+                <Link
+                  activeClassName="is-active"
+                  className="navbar-item"
+                  to="/atendimento"
+                >
+                  Atendimento Clínico
+
+                </Link>
               </div>
             </div>
             <Link
