@@ -13,9 +13,10 @@ description: >-
   Luís Américo Valadão
 featuredimage: /img/tykhe-publicacoes-sem-imagem.png
 tags:
-  - >-
-    #psicanalise #psicanalisecampinas #psicanalisefreudiana
-    #psicanaliselacaniana
+  - psicanalise
+  - psicanalisecampinas
+  - psicanalisefreudiana
+  - psicanaliselacaniana
 date: 2020-07-21T18:55:36.788Z
 cat:
   - fa-file-text-o

@@ -20,7 +20,9 @@ description: >-
   Coordenadores Deborah Steinberg e Luís Américo.
 featuredimage: /img/07.20_transf.jpg
 tags:
-  - '#psicanalise #psicanaliselacaniana #psicanalisefreudiana'
+  - psicanalise 
+  - psicanaliselacaniana 
+  - psicanalisefreudiana
 date: 2020-07-30T17:55:43.761Z
 ---
 Reabertura 

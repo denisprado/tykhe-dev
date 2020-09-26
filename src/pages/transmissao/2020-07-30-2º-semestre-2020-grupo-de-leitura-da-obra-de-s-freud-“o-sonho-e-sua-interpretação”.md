@@ -9,7 +9,9 @@ description: >
   os significantes da cultura em um determinado momento histórico.
 featuredimage: /img/07.20_sonho.jpg
 tags:
-  - '#psicanalise #psicanaliselacaniana #psicanalisefreudiana'
+  - psicanalise 
+  - psicanaliselacaniana 
+  - psicanalisefreudiana
 date: 2020-07-30T17:53:20.390Z
 ---
 Partimos da premissa de que o sonho, ao ser interpretado, se revela como lugar de articulação dos significantes que representam aquele sujeito singular com os significantes da cultura em um determinado momento histórico.

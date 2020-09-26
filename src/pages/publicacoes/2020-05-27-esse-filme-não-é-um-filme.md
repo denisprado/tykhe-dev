@@ -5,9 +5,10 @@ description: |+
 
 featuredimage: /img/tykhe-publicacoes-sem-imagem.png
 tags:
-  - >-
-    #psicanalise #psicanalisecampinas #psicanaliselacaniana
-    #psicanalisefreudiana
+  - psicanalise 
+  - psicanalisecampinas 
+  - psicanaliselacaniana
+  - psicanalisefreudiana
 date: 2020-05-27T19:21:00.025Z
 cat:
   - fa-file-text-o
