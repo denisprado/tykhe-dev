@@ -20,6 +20,7 @@ description: >
 | Eduardo Elias de Almeida       | (11) 99903.7668  |
 | Gabriela Finazzi de Carvalho   | (19) 99128.0119  |
 | Geison de Araújo Campos        | (19) 99662.5607  |
+| Jaqueline Fernandes Desbordes  | (19) 99907-7919  |
 | Leonardo Coutinho Rodrigues    | (19) 99860.2525  |
 | Luís Américo Valadão Queiroz   | (19) 99215.7331  |
 | Marta Togni Ferreira           | (19) 99631.3375  |
