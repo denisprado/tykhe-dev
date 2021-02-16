@@ -23,6 +23,8 @@ description: >
 | Jaqueline Fernandes Desbordes  | (19) 99907-7919  |
 | Kelly Macedo Alcantara         | (11) 97646-0714  |
 | Leonardo Coutinho Rodrigues    | (19) 99860.2525  |
+| Lucas Palma                    | (19) 99831.1205  |
+| Luciano Barbosa                | (19) 98848.3829  |
 | Luís Américo Valadão Queiroz   | (19) 99215.7331  |
 | Marta Togni Ferreira           | (19) 99631.3375  |
 | Polyana Stocco Muniz           | (11) 9.8613.6226 |
