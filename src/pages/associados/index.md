@@ -28,4 +28,5 @@ description: >
 | Luís Américo Valadão Queiroz   | (19) 99215.7331  |
 | Marta Togni Ferreira           | (19) 99631.3375  |
 | Polyana Stocco Muniz           | (11) 9.8613.6226 |
-| Rita de Cássia S. Bonança      | (11) 99918.9812  |
+| Rita de Cássia S. Bonança      | (11) 99918.9812
+| Silvia Nogueira Cordeiro       | (43) 98859.9779  
