@@ -32,6 +32,7 @@ collections:
         }
       - { label: "Imagem em Destaque", name: "featuredimage", widget: image }
       - { label: "Texto", name: "body", widget: "markdown" }
+      - { label: "Arquivo PDF", name: "pdf_file", widget: "file" }
       - { label: "Tags", name: "tags", widget: "list" }
       - { label: "Data de Publicação", name: "date", widget: "datetime" }
       - {
