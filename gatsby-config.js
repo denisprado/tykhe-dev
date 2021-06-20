@@ -6,22 +6,11 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     {
-      resolve: "gatsby-plugin-page-transitions",
+      resolve: 'gatsby-plugin-sass',
       options: {
-        transitionTime: 900,
-        defaultStyle: {
-          transition: "all 900ms ease-in-out",
-          opacity: 1
-        },
-        transitionStyles: {
-          entering: { opacity: 1 },
-          entered: { opacity: 1 },
-          exiting: { opacity: 0 },
-          exited: { opacity: 0 }
-        }
+        indentedSyntax: true
       }
     },
-    "gatsby-plugin-sass",
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",
@@ -83,7 +72,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
       options: {
-        develop: true, // Activates purging in npm run develop
+        develop: false, // Activates purging in npm run develop
         purgeOnly: ["/all.sass"] // applies purging only on the bulma css file
       }
     }, // must be after other CSS plugins

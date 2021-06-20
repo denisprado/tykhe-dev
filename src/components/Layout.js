@@ -8,7 +8,7 @@ import NavbarSobreHeroFoot from "../components/NavbarSobreHeroFoot";
 import logo from "../img/LogoTYKHE-bco.svg";
 import "./all.sass";
 import useSiteMetadata from "./SiteMetadata";
-import PageTransition from "gatsby-plugin-page-transitions";
+
 
 const TemplateWrapper = ({ children }) => {
   const { props } = children;
@@ -89,7 +89,7 @@ const TemplateWrapper = ({ children }) => {
             </div>
           </section>
         )}
-        <PageTransition>{children}</PageTransition>
+        {children}
         <Footer />
       </div>
     )

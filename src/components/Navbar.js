@@ -2,7 +2,9 @@ import { Link } from "gatsby";
 import React from "react";
 import logo from "../img/LogoTYKHE-bco.png";
 import logoAzul from "../img/LogoTYKHE-azul.png";
-import PageTransition from "gatsby-plugin-page-transitions";
+import { FaFacebookF } from '@react-icons/all-files/fa/FaFacebookF';
+import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube';
+import { FaInstagram } from '@react-icons/all-files/fa/FaInstagram';
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -43,16 +45,16 @@ const Navbar = class extends React.Component {
       >
         <div className="navbar-brand is-large">
           {this.state.hasLogo ? (
-            <PageTransition>
-              <Link to="/" className="navbar-item" title="Logo">
-                <img src={logo} alt="TYKHE" style={{ width: "6rem" }} />
-              </Link>
-            </PageTransition>
+
+            <Link to="/" className="navbar-item" title="Logo">
+              <img src={logo} alt="TYKHE" style={{ width: "6rem" }} />
+            </Link>
+
           ) : (
-              <Link to="/" className="navbar-item" title="Logo">
-                <img src={logoAzul} alt="TYKHE" style={{ width: "6rem" }} />
-              </Link>
-            )}
+            <Link to="/" className="navbar-item" title="Logo">
+              <img src={logoAzul} alt="TYKHE" style={{ width: "6rem" }} />
+            </Link>
+          )}
           {/* Hamburger menu */}
           <div
             className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -173,21 +175,21 @@ const Navbar = class extends React.Component {
               className="navbar-item"
               href="https://www.facebook.com/TykhePsicanalise"
             >
-              <i className="fab fa-facebook-f"></i>
+              <FaFacebookF />
             </a>
             <a
               title="youtube"
               className="navbar-item"
               href="https://www.youtube.com/channel/UCG4TY-7a1GwZA1i_19yc4GA"
             >
-              <i className="fab fa-youtube"></i>
+              <FaYoutube />
             </a>
             <a
               title="instagram"
               className="navbar-item"
               href="https://www.instagram.com/tykhepsicanalise/"
             >
-              <i className="fab fa-instagram"></i>
+              <FaInstagram />
             </a>
           </div>
         </div>
