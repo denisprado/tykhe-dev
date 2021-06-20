@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Revolução, corpo e dança'
+title: "Revolução, corpo e dança"
 description: |-
   “Cairão as almas das peles
   Este tema chegou colérico,
@@ -8,6 +8,7 @@ description: |-
   - Dá-me
   a rédea dos dias!”
 featuredimage: /img/tykhe-logo_página_2.png
+pdf_file: /img/a-escrita-de-casos-clinicos.pdf
 tags:
   - psicanálise campinas
   - psicanálise lacaniana
@@ -21,19 +22,20 @@ date: 2020-04-21T18:16:27.263Z
 cat:
   - fa-file-text-o
 ---
+
 ![](/img/salto-28.jpg)
 
 _Por Deborah Steinberg_
 
 O texto que se segue foi apresentado no Encontro: Políticas da psicanálise, ocorrido em junho de 2019.
-Nesse encontro, em sua abertura, foi apresentado o documentário: "No intenso agora" de João Moreira Salles. 
+Nesse encontro, em sua abertura, foi apresentado o documentário: "No intenso agora" de João Moreira Salles.
 
-O documentário trata de um eixo narrativo principal, as revoluções da década de 60. Foi realizado à partir de documentos e arquivos os quais, dentre alguns,  estavam registros de uma viagem à China de Mao Tse Tung feita pela mãe do diretor; e outros, de maio de 68 na França e Tchecoslováquia, assim como no Brasil. 
+O documentário trata de um eixo narrativo principal, as revoluções da década de 60. Foi realizado à partir de documentos e arquivos os quais, dentre alguns, estavam registros de uma viagem à China de Mao Tse Tung feita pela mãe do diretor; e outros, de maio de 68 na França e Tchecoslováquia, assim como no Brasil.
 
 E foi à partir deste filme-documentário que os trabalhos, todos eles, foram realizados, inclusive este que segue chamado Revolução, corpo e dança.
 
 Desejo a todos uma ótima leitura!
-Deborah 
+Deborah
 
 “Cairão as almas das peles
 Este tema chegou colérico,
@@ -54,20 +56,20 @@ Esta palavra -revolução- que desce do céu para a Terra como uma metáfora da 
 
 A ideia de revolução moderna, segundo Arendt, refere-se à percepção pela massa trabalhadora, miserável de que aquela condição não era eterna, inevitável e determinante. E essa percepção só se deu na Europa porque houve luz vinda do Novo Continente, onde outra vida era possível. A percepção, a luz, a clareza vem de fora, como a luz do Sol, que ilumina a Terra estando fora dela, para continuarmos com a metáfora celeste.
 
-Revolução aspira à dimensão do novo, de um novo tempo, de maior liberdade, ainda que num mesmo lugar. Lacan insiste no retorno ao mesmo lugar; ele diz que os estudantes, aqueles estudantes, não querem outra coisa senão um mestre, sempre um mestre. Não vou por aí. Mas nesse retorno ao mesmo poderíamos pensar em repetição? Se sim, o título desta mesa: “eu sei o que vocês fizeram na revolução passada” parece interpretante: exatamente a mesma coisa; há algo de repetição que é estrutural. Mas seria só isso? 
+Revolução aspira à dimensão do novo, de um novo tempo, de maior liberdade, ainda que num mesmo lugar. Lacan insiste no retorno ao mesmo lugar; ele diz que os estudantes, aqueles estudantes, não querem outra coisa senão um mestre, sempre um mestre. Não vou por aí. Mas nesse retorno ao mesmo poderíamos pensar em repetição? Se sim, o título desta mesa: “eu sei o que vocês fizeram na revolução passada” parece interpretante: exatamente a mesma coisa; há algo de repetição que é estrutural. Mas seria só isso?
 
-Seguindo ainda com Hannah Arendt, na era pré-moderna a pobreza era vista como algo tão natural que não só atingia o corpo social como o corpo humano.  Estamos falando dos corpos miseráveis por um lado e corpos ricos de outros, como se os primeiros fossem lidos ou melhor reconhecidos como não tão humanos e os segundos como verdadeiramente humanos. Poderíamos até dizer que os primeiros, talvez, nem sequer fossem reconhecidos; mas não, há que existir esses corpos pobres para sustentar os corpos ricos. Ou vocês acham que haveria um corpo rico sem o cuidado, a servidão, o saber fazer do corpo pobre, servil, gentil, febril, sumiu, morreu? Tem outro...
+Seguindo ainda com Hannah Arendt, na era pré-moderna a pobreza era vista como algo tão natural que não só atingia o corpo social como o corpo humano. Estamos falando dos corpos miseráveis por um lado e corpos ricos de outros, como se os primeiros fossem lidos ou melhor reconhecidos como não tão humanos e os segundos como verdadeiramente humanos. Poderíamos até dizer que os primeiros, talvez, nem sequer fossem reconhecidos; mas não, há que existir esses corpos pobres para sustentar os corpos ricos. Ou vocês acham que haveria um corpo rico sem o cuidado, a servidão, o saber fazer do corpo pobre, servil, gentil, febril, sumiu, morreu? Tem outro...
 
 Que estranho! Por que falar de corpo pobre ou rico ao invés de classes sociais? Porque são os corpos que padecem ou regozijam, é o corpo do músico Evaldo dos Santos Rosa que levou 80 tiros e não existe mais para sua família, seus amigos, sua música. E não é outra coisa que padece nos sofrimentos psíquicos, é o corpo. De Maiakosvski à mulher do músico - Luciana Nogueira é seu nome. É o corpo que sofre, seja de dor seja do pensamento.
 
-No filme, uma das cenas em que João Moreira Salles nos narra, aquela em que descreve o rapaz que atira a pedra no confronto com a polícia; ele descreve um jeito de corpo na luta, na rua, na cidade. Jeito de um corpo que lança um objeto, atlético, que se arca para trás, retrocede para lançar longe e tentar atingir seu alvo com a pedra, o objeto lançado; e quando, depois, o corpo novamente recua. 
+No filme, uma das cenas em que João Moreira Salles nos narra, aquela em que descreve o rapaz que atira a pedra no confronto com a polícia; ele descreve um jeito de corpo na luta, na rua, na cidade. Jeito de um corpo que lança um objeto, atlético, que se arca para trás, retrocede para lançar longe e tentar atingir seu alvo com a pedra, o objeto lançado; e quando, depois, o corpo novamente recua.
 
 A propósito, Alain Didier-Weill nos invoca com sua diferenciação dos corpos masculino e feminino, através das brincadeiras infantis. Há algo de notável nessas brincadeiras. Enquanto os meninos tenderiam a correr atrás de bola, recuperá-la, dominá-la, para, em seguida, chutá-la e, novamente, perdê-la, objeto fora do corpo; as meninas, por sua vez e gosto, preferem elas mesmas se lançarem às alturas, pular corda, pula-pula ou pular elástico, dançar. Em tempos em que uma ministra diz que meninas vestem rosa e meninos azul, por um lado, e por outro, as questões de gênero tão em voga, falar em brincadeiras de meninas e meninos passa a ser um campo minado. Poderia dizer corpo infantil masculino ou feminino, mas seria muito frio, sem poesia, sem graça. É claro que há meninas que gostam de jogar bola e jogam muitíssimo bem. Eu mesma sempre adorei jogar bola. Assim como tem os meninos que dançam muitíssimo bem, haja visto Billie Elliot para citar um.
 
 Mas interessa aqui falar da estruturação psíquica feminina e masculina e de suas diferentes relações com o objeto de satisfação. E, vejam, estruturação psíquica não se confunde com identidade sexual. Estamos no campo do masculino e feminino, mas continuarei falando de menino e menina para que o texto fique mais prazeroso.\
-Qual diferença haveria entre o interesse de um menino em jogar bola e de uma menina em pular corda? 
+Qual diferença haveria entre o interesse de um menino em jogar bola e de uma menina em pular corda?
 
-Allain Didier escreve que o prazer para o menino está em dominar e reconquistar o objeto fora do corpo; enquanto que a menina tem, em si, no seu corpo, por ele todo, uma Outra satisfação, prazerosa, da dança. A dança é, por natureza, feminina; não das mulheres, mas feminina. Tal qual a mulher, a dança gosta de ser penetrada pela música. 
+Allain Didier escreve que o prazer para o menino está em dominar e reconquistar o objeto fora do corpo; enquanto que a menina tem, em si, no seu corpo, por ele todo, uma Outra satisfação, prazerosa, da dança. A dança é, por natureza, feminina; não das mulheres, mas feminina. Tal qual a mulher, a dança gosta de ser penetrada pela música.
 E aqui abandono os termos meninos e meninas para tocar na feminilidade, com Freud, a partir de Joel Birman. Para além das insígnias fálicas determinantes do mundo capitalista, falocêntrico em que vivemos, tanto presente nos homens quanto nas mulheres, a feminilidade é de outra ordem, flerta com o erotismo. Ali onde não há garantias protetoras, divinas, no universo das Bacantes, onde elas tanto podem encantar quanto devorar e que certamente há de se ter coragem para se lançar. Mas se lançar a que? Se lançar à experiência imponderável do desamparo, que habita, na origem, a todos nós. De onde se abre o buraco, o nada, o vazio, o instante antes do criativo. Pausa.
 
 E, agora, entro no campo da dança.
@@ -76,7 +78,7 @@ Klauss Vianna, coreógrafo brasileiro contemporâneo que inventou o que hoje cha
 
 Deixarei esta questão para frente.
 
-Gostaria de tocar em outro ponto da técnica, no que diz respeito ao uso do peso do corpo. É o uso do peso, tanto das partes do corpo, mãos, braços, pernas, crânio, quanto do peso do corpo como um todo, que possibilitam a leveza, a entrega e o impulso. “É pelo uso do corpo, e não pelo abandono desse que me oponho à gravidade”, diz Jussara Miller, dançarina e professora- doutora na técnica dos Viannas. O chão passa a ter uma outra função, de apoio para lançar a impulsão do movimento, o salto, o alto.  O longe.  Ao mesmo tempo, o chão recebe o corpo entregue, não abandonado, mas entregue. E aqui coloco a questão do motivo pelo qual a gravidade parece pesar tão mais no sofrimento psíquico, que faz o corpo parecer tão pesado, tão pesado, que cai.
+Gostaria de tocar em outro ponto da técnica, no que diz respeito ao uso do peso do corpo. É o uso do peso, tanto das partes do corpo, mãos, braços, pernas, crânio, quanto do peso do corpo como um todo, que possibilitam a leveza, a entrega e o impulso. “É pelo uso do corpo, e não pelo abandono desse que me oponho à gravidade”, diz Jussara Miller, dançarina e professora- doutora na técnica dos Viannas. O chão passa a ter uma outra função, de apoio para lançar a impulsão do movimento, o salto, o alto. O longe. Ao mesmo tempo, o chão recebe o corpo entregue, não abandonado, mas entregue. E aqui coloco a questão do motivo pelo qual a gravidade parece pesar tão mais no sofrimento psíquico, que faz o corpo parecer tão pesado, tão pesado, que cai.
 
 O corpo que cai, que cai em depressão, é um corpo que cai de um lugar de reconhecimento pelo Outro, de fora. O efeito dessa queda é a vontade de desaparecer, por ter desaparecido para o Outro. Peso, chão.
 
@@ -106,7 +108,7 @@ Kehl, Maria Rita- 7 ou 8 ensaios sobre o grupo Corpo
 
 Lacan, Jacques- Seminário 17. O avesso da psicanálise.
 
-Maiakoviski-  Sobre isto
+Maiakoviski- Sobre isto
 
 Miller, Jussara- A escuta do corpo
 

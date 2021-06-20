@@ -108,13 +108,13 @@ export const BlogRoll = props => {
                   <div className="content">
                     {post.frontmatter.tags && post.frontmatter.tags.length
                       ? post.frontmatter.tags.map(tag => (
-                          <Link
-                            to={`/tags/${kebabCase(tag)}/`}
-                            key={tag + `tag`}
-                          >
-                            <span className="tag is-medium">{tag}</span>
-                          </Link>
-                        ))
+                        <Link
+                          to={`/tags/${kebabCase(tag)}/`}
+                          key={tag + `tag`}
+                        >
+                          <span className="tag is-medium">{tag}</span>
+                        </Link>
+                      ))
                       : null}
                   </div>
 

@@ -11,10 +11,11 @@ export const BlogPostTemplate = ({
   contentComponent,
   tags,
   title,
+  pdf_file,
   helmet
 }) => {
   const PostContent = contentComponent || Content;
-
+  console.log(pdf_file)
   return (
     <section className="section">
       {helmet || ""}
@@ -45,7 +46,15 @@ export const BlogPostTemplate = ({
               <h1 className="title is-size-2-tablet is-size-6-mobile is-bold-light">
                 {title}
               </h1>
-              <PostContent content={content} />
+              <div className="columns box">
+                <div className="column">
+
+                  <PostContent content={content} />
+                </div>
+                <div className="column">
+                  <iframe src={pdf_file.publicURL} width={'100%'} marginTop={'20px'} height={'800px'} />
+                </div>
+              </div>
               {tags && tags.length ? (
                 <div style={{ marginTop: `4rem` }}>
                   <h4>Tags</h4>
@@ -59,6 +68,7 @@ export const BlogPostTemplate = ({
                 </div>
               ) : null}
             </div>
+
           </div>
         </div>
       </div>
@@ -71,6 +81,7 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
+
   helmet: PropTypes.object
 };
 
@@ -83,6 +94,7 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        pdf_file={post.frontmatter.pdf_file}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
@@ -108,19 +120,22 @@ BlogPost.propTypes = {
 export default BlogPost;
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      id
+      query BlogPostByID($id: String!) {
+        markdownRemark(id: {eq: $id }) {
+        id
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        title
-        description
-        tags
+      title
+      description
+      pdf_file {
+        publicURL
+      }
+      tags
       }
       fields {
         slug
       }
     }
   }
-`;
+      `;
