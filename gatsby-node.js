@@ -10,14 +10,15 @@ exports.createSchemaCustomization = ({ actions }) => {
       frontmatter: Frontmatter
     }
     
+    type PdfFile {
+      publicURL: String
+    }
+    
     type Frontmatter @infer {
-      pdf_file: pdfFile
+      
       description: String
     }
 
-    type pdfFile {
-      publicURL: String,
-    }
   `;
   createTypes(typeDefs);
 };
