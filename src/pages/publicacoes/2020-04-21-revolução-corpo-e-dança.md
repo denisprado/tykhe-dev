@@ -8,7 +8,6 @@ description: |-
   - Dá-me
   a rédea dos dias!”
 featuredimage: /img/tykhe-logo_página_2.png
-pdf_file: /img/a-escrita-de-casos-clinicos.pdf
 tags:
   - psicanálise campinas
   - psicanálise lacaniana

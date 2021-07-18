@@ -17,6 +17,7 @@ date: 2021-06-12T18:55:18.922Z
 cat:
   - fa-file-text-o
 ---
+
 > “Estou cansado de escrever, mas não consigo afastar-me da escritura. Jamais antes
 > de agora me viera em mente anotar os acontecimentos da minha vida. É evidente
 > que quem vive no interior de uma realidade deseja somente vivê-la e que somente

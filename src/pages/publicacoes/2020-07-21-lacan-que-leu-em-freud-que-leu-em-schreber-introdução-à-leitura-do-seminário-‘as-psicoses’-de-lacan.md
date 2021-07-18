@@ -12,7 +12,6 @@ description: >-
 
   Luís Américo Valadão
 featuredimage: /img/tykhe-publicacoes-sem-imagem.png
-pdf_file: /img/a-escrita-de-casos-clinicos.pdf
 tags:
   - psicanalise
   - psicanalisecampinas
