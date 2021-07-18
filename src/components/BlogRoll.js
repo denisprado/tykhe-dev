@@ -157,12 +157,10 @@ export default () => (
               }
               frontmatter {
                 title
-                description
                 tags
                 cat
                 templateKey
                 date(formatString: "DD/MM/YYYY")
-                featuredpost
                 featuredimage {
                   childImageSharp {
                     fluid(maxWidth: 500, quality: 100) {
@@ -170,6 +168,8 @@ export default () => (
                     }
                   }
                 }
+                featuredpost
+                description
               }
             }
           }

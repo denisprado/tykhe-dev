@@ -16,11 +16,12 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content;
   console.log(pdf_file)
+  const isMaxDesktop = !(pdf_file?.publicURL) && 'is-max-desktop';
   return (
     <section className="section">
       {helmet || ""}
       <nav
-        className="breadcrumb container margin-bottom-3"
+        className={"breadcrumb container margin-bottom-3 " + isMaxDesktop}
         aria-label="breadcrumbs"
       >
         <ul>
@@ -39,7 +40,7 @@ export const BlogPostTemplate = ({
           </li>
         </ul>
       </nav>
-      <div className="container">
+      <div className={"container " + isMaxDesktop}>
         <div className="content">
           <div className="columns box">
             <div className="column">
@@ -51,9 +52,9 @@ export const BlogPostTemplate = ({
 
                   <PostContent content={content} />
                 </div>
-                <div className="column">
-                  <iframe src={pdf_file.publicURL} width={'100%'} marginTop={'20px'} height={'800px'} />
-                </div>
+                {pdf_file?.publicURL && <div className="column">
+                  <iframe src={pdf_file?.publicURL} width={'100%'} marginTop={'20px'} height={'800px'} />
+                </div>}
               </div>
               {tags && tags.length ? (
                 <div style={{ marginTop: `4rem` }}>
@@ -127,10 +128,10 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
       title
-      description
       pdf_file {
         publicURL
       }
+      description
       tags
       }
       fields {

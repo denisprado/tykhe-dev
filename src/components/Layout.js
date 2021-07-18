@@ -63,7 +63,7 @@ const TemplateWrapper = ({ children }) => {
             </div>
             <div className="hero-body">
               {children.props.title && (
-                <div className="container ">
+                <div className="container is-max-desktop">
                   <div className="columns">
                     <div className="column has-text-centered is-3 is-offset-1">
                       <img src={logo} alt="TYKHE" style={{ width: "18rem" }} />

@@ -8,24 +8,9 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout>
         <section className="section">
-          <div className="container">
+          <div className="container ">
             <div className="columns">
               <div className="column">
-                <nav
-                  className="breadcrumb margin-bottom-3"
-                  aria-label="breadcrumbs"
-                >
-                  <ul>
-                    <li>
-                      <a href="/">TYKHE</a>
-                    </li>
-                    <li className="is-active">
-                      <a aria-current="page" href="/publicacoes">
-                        Publicações
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
                 <div className="container">
                   <BlogRoll />
                 </div>
