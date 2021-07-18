@@ -12,6 +12,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     
     type Frontmatter @infer {
       pdf_file: pdfFile
+      description: String
     }
 
     type pdfFile {
