@@ -1,6 +1,7 @@
 ---
 templateKey: transmissoes-post
-title: "Rede de pesquisa: psicanálise e instituições públicas de saúde mental"
+title: "2º semestre de 2021 - Rede de pesquisa: psicanálise e instituições
+  públicas de saúde mental"
 description: Desde 2019 a Tykhè sustenta esse dispositivo de pesquisa
   psicanalítica de formação e transmissão nomeado a partir do significante Rede.
 featuredimage: /img/rede.jpg
