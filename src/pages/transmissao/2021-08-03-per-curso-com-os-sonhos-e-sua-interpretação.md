@@ -1,6 +1,6 @@
 ---
 templateKey: transmissoes-post
-title: (Per) curso com os sonhos e sua interpretação
+title: 2º semestre de 2021 - (Per) curso com os sonhos e sua interpretação
 description: A ideia deste percurso é, antes de mais nada, reafirmar o lugar
   fundador de “A Interpretação dos Sonhos” (1900) na obra freudiana, destacando
   a potência de transmissão do discurso onírico.
