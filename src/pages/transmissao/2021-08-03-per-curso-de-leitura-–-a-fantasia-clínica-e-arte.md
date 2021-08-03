@@ -3,6 +3,11 @@ templateKey: transmissoes-post
 title: "2º semestre de 2021 - (Per)curso de leitura – a fantasia: clínica e arte"
 description: O (Per)curso está entrando em uma nova trilha da fantasia.
 featuredimage: /img/fantasia.jpg
+tags:
+  - psicanalise
+  - psicanalisefreudiana
+  - psicanaliselacaniana
+  - psicanalisecampinas
 date: 2021-08-03T00:24:05.653Z
 ---
 <!--StartFragment-->
