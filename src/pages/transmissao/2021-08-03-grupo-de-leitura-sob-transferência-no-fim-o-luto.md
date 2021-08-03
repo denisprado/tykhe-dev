@@ -1,6 +1,6 @@
 ---
 templateKey: transmissoes-post
-title: "Grupo de leitura sob transferência: no fim, o luto"
+title: "2º semestre de 2021 - Grupo de leitura sob transferência: no fim, o luto"
 description: >
   Nossos grupo de leitura sob transferência iniciará o segundo semestre se
   despedindo do Seminário da transferência do Lacan. Quis o acaso que restasse a
