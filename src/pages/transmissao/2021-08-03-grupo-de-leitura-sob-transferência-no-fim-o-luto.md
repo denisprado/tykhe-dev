@@ -7,7 +7,10 @@ description: >
   última lição, cujo título, “o luto do analista”, nos pede um trabalho a mais. 
 featuredimage: /img/trans_preto.jpg
 tags:
-  - psicanalise;psicanalisefreudiana;psicanaliselacaniana;psicanalisecampinas
+  - psicanalise
+  - psicanalisefreudiana
+  - psicanaliselacaniana
+  - psicanalisecampinas
 date: 2021-08-03T00:14:30.167Z
 ---
 <!--StartFragment-->
