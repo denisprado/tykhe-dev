@@ -4,7 +4,7 @@ title: A direção de tratamento acorda a direção da associação? - Deborah S
 description: "Ao abrir este link o download em PDF desta publicação será feito
   automaticamente. "
 featuredimage: /img/tykhe-publicacoes-sem-imagem.png
-pdf_file: /img/texto-jornada-2021-deborah-steinberg.pdf
+pdf_file: /img/a-direção-de-tratamento-acorda-a-direção-da-associação-deborah-steinberg.pdf
 tags:
   - "#psicanalise"
 date: 2021-10-01T18:52:29.763Z
