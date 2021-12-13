@@ -8,9 +8,8 @@ description: >
   marcado, ao qual somos sempre chamados, com um real que escapole. A Týkhe, nós
   a traduzimos por encontro do real.”
 ---
-
 | Nome                         | Cargo      |
-| :--------------------------- | :--------- |
-| Deborah Steinberg            | Diretora   |
-| Gabriela Finazzi de Carvalho | Tesoureira |
-| Polyana Stocco Muniz         | Secretária |
+| ---------------------------- | ---------- |
+| Luís Américo Valadão Queiroz | Diretor    |
+| Rita de Cássia S. Bonança    | Tesoureira |
+| Cibele Kiss Contin Pucci     | Secretária |
