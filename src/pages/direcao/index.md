@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 image: /img/fortuna-head.jpg
-title: Direção atual
+title: "Direção "
 description: >
   “Esse real, onde o encontramos? É com efeito de um encontro, de um encontro
   essencial, que se trata no que a psicanálise descobriu - de um encontro
