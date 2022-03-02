@@ -10,7 +10,7 @@ export default class TransmissoesIndexPage extends React.Component {
           <div className="container">
             <div className="columns">
               <div className="column">
-                <h1 className="title">Secção Clínica</h1>
+                <h1 className="title">Seção Clínica</h1>
                 <h2 className="subtitle is-spaced">
                   A Psicanálise, desde sua invenção por Freud, nunca se
                   pretendeu, tão somente, ser um novo saber, desvinculado de sua
@@ -19,7 +19,7 @@ export default class TransmissoesIndexPage extends React.Component {
                 <div className="content">
                   <p>
                     Lacan inaugura a seção clínica em 5 de janeiro no ano de
-                    1977 com a seguinte formulação: “O que é a clínica
+                    1977 com a seguinte formulação: “O que é a clínica
                     psicanalítica? Não é complicado. Ela tem uma base – é o que
                     se diz em uma psicanálise”. Chega a desconsertar um
                     enunciado de tamanha simplicidade e que, no entanto,
@@ -73,7 +73,7 @@ export default class TransmissoesIndexPage extends React.Component {
                     compartilhada.
                   </p>
                   <p>
-                    A Seção Clínica dentro da Týkhe - Associação de Psicanálise
+                    A Seção Clínica dentro da Tykhe - Associação de Psicanálise
                     é o lugar privilegiado para que tais questões relativas a
                     essa prática possam se realizar. Questões estas que envolvem
                     tanto os conceitos fundamentais, a metapsicologia, quanto o
@@ -91,7 +91,7 @@ export default class TransmissoesIndexPage extends React.Component {
                   </p>
                   <p>
                     Nossos encontros têm frequência mensal, e são reservados aos
-                    membros da Týkhe, responsáveis pelo acontecer da Secção
+                    membros da Tykhe, responsáveis pelo acontecer da Secção
                     Clínica, o que não exclui que possa haver convidados.
                     Trataremos dos impasses do psicanalista em sua prática,
                     sempre clínica. Lembrando que a clínica se realiza no
@@ -112,8 +112,8 @@ export default class TransmissoesIndexPage extends React.Component {
                     elaborações por escrito na seção clínica.
                   </p>
                   <p>
-                    A agenda é aberta à surpresa, um convite aos associados da
-                    Týkhe para que se apresentem.
+                    A agenda é aberta à surpresa, um convite aos associados da
+                    Tykhe para que se apresentem.
                   </p>
                   <p>
                     <strong>Coordenadores:</strong>

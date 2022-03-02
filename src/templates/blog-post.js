@@ -128,9 +128,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
       title
-      pdf_file {
-        publicURL
-      }
+      pdf_file
       description
       tags
       }

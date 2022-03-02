@@ -57,7 +57,7 @@ const TemplateWrapper = ({ children }) => {
         </Helmet>
 
         {props && props.heroSize ? (
-          <section className={"hero is-primary is-bold " + props.heroSize}>
+          <section className={"hero is-custom is-bold " + props.heroSize}>
             <div className="hero-head">
               <Navbar hasLogo={false} />
             </div>
@@ -69,7 +69,7 @@ const TemplateWrapper = ({ children }) => {
                       <img src={logo} alt="TYKHE" style={{ width: "18rem" }} />
                     </div>
                     <div className="column is-6">
-                      <p className="subtitle">{children.props.description}</p>
+                      <p className="subtitle" style={{color: "white"}}>{children.props.description}</p>
                     </div>
                   </div>
                 </div>

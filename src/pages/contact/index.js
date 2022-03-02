@@ -54,7 +54,7 @@ export default class Index extends React.Component {
               <div className="column is-4">
                 <h4>Endereço</h4>
                 <p>
-                  <strong>Týkhe Associação de Psicanálise</strong>
+                  <strong>Tykhe Associação de Psicanálise</strong>
                   <br />
                   Rua Américo Brasiliense, 244, sala 61
                   <br />
@@ -72,7 +72,7 @@ export default class Index extends React.Component {
                 </p>
               </div>
               <div className="column is-4">
-                <h4>Secretaria TÝKHE</h4>
+                <h4>Secretaria TYKHE</h4>
                 <p>
                   Horário de <strong>funcionamento da secretaria</strong>:
                   <br />
