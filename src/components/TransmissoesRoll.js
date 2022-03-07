@@ -3,6 +3,7 @@ import { kebabCase } from "lodash";
 import PropTypes from "prop-types";
 import React from "react";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
+import { Chrono } from "react-chrono";
 
 export const TransmissoesRoll = props => {
   const { data } = props;
@@ -14,6 +15,16 @@ export const TransmissoesRoll = props => {
     filteredData: [],
     query: emptyQuery
   });
+
+  
+
+  function truncateString(str, n) {
+    if (str.length > n) {
+      return str.substring(0, n) + "...";
+    } else {
+      return str;
+    }
+  }
 
   function handleInputChange(event) {
     const query = event.target.value;
@@ -65,8 +76,8 @@ export const TransmissoesRoll = props => {
           </p>
         </div>
       </nav>
-
       <div className="columns is-multiline">
+        <Chrono mode="VERTICAL_ALTERNATING">
         {posts &&
           posts.map(({ node: post }) => (
             <div className="column is-4" key={post.id}>
@@ -90,7 +101,7 @@ export const TransmissoesRoll = props => {
                 <div className="card-content">
                   <p className="title is-4">{post.frontmatter.title}</p>
 
-                  <div className="content">{post.frontmatter.description}</div>
+                  <div className="content">{truncateString(post.frontmatter.description, 150)}</div>
                   <div className="content">
                     {post.frontmatter.tags && post.frontmatter.tags.length
                       ? post.frontmatter.tags.map(tag => (
@@ -98,7 +109,7 @@ export const TransmissoesRoll = props => {
                             to={`/tags/${kebabCase(tag)}/`}
                             key={tag + `tag`}
                           >
-                            <span className="tag is-medium">{tag}</span>
+                            <span className="tag is-medium">{truncateString(tag, 30)}</span>
                           </Link>
                         ))
                       : null}
@@ -113,6 +124,7 @@ export const TransmissoesRoll = props => {
               </article>
             </div>
           ))}
+        </Chrono>
       </div>
     </div>
   );
