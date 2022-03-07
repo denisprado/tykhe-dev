@@ -80,7 +80,7 @@ export const TransmissoesRoll = props => {
         <Chrono mode="VERTICAL_ALTERNATING">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="column is-4" key={post.id}>
+            <div className="column" key={post.id}>
               <article className="box card">
                 <div className="card-image">
                   <figure className="image">
