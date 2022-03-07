@@ -50,7 +50,7 @@ description: >
 <br/>
 <br/>
 
-#### Comissão de seção clínica
+#### Comissão de publicação
 
 | Nome                         |
 | :--------------------------- |
