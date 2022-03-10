@@ -1,9 +1,10 @@
 import { graphql, Link, StaticQuery } from "gatsby";
 import { kebabCase } from "lodash";
 import PropTypes from "prop-types";
-import React from "react";
+import React, { useState } from "react";
 import PreviewCompatibleImage from "./PreviewCompatibleImage";
 import { Chrono } from "react-chrono";
+import {isMobile} from 'react-device-detect';
 
 export const TransmissoesRoll = props => {
   const { data } = props;
@@ -53,7 +54,6 @@ export const TransmissoesRoll = props => {
       filteredData // with filtered data from posts.filter(post => (//filteredData)) above
     });
   }
-
   const { filteredData, query } = state;
   const hasSearchResults = filteredData && query !== emptyQuery;
   const posts = hasSearchResults ? filteredData : allPosts;
@@ -77,7 +77,7 @@ export const TransmissoesRoll = props => {
         </div>
       </nav>
       <div className="columns is-multiline">
-        <Chrono mode="VERTICAL_ALTERNATING">
+        <Chrono mode={isMobile ? "VERTICAL" : "VERTICAL_ALTERNATING"}>
         {posts &&
           posts.map(({ node: post }) => (
             <div className="column" key={post.id}>

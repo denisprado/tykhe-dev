@@ -119,8 +119,8 @@ export default class TransmissoesIndexPage extends React.Component {
                     <strong>Coordenadores:</strong>
                   </p>
                   <ul>
-                    <li>Antonio Moreira Lima Jr.</li>
-                    <li>Luis Américo Valadão Queiroz</li>
+                    <li>Geison de Araújo Campos</li>
+                    <li>Cibele Kiss Contin Pucci</li>
                   </ul>
                 </div>
               </div>

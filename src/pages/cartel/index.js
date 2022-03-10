@@ -52,6 +52,70 @@ export default class TransmissoesIndexPage extends React.Component {
               </div>
             </div>
           </div>
+          <div className="container">
+          <br></br>
+          <br></br>
+          <h1 className="title">Cartéis em andamento</h1>
+            <span style={{'font-weight': 'bold'}}>Autismo</span>
+            <br></br>
+            Alex Munix
+            Alex Barreiro
+            Rita Bonança
+            Kelly Macedo Alcântara
+            Bruno de Paula
+            <br></br>
+            <br></br>
+            <span style={{'font-weight': 'bold'}}>Seminário 9</span>
+            <br></br>
+            Leonardo Rodrigues
+            Thales de Medeiros
+            Elisa Mara do Nascimento
+            Luís Américo Valadão
+            Valéria Motta
+            <br></br>
+            <br></br>
+            <span style={{'font-weight': 'bold'}}>Re-cortes: a direção do tratamento</span>
+            <br></br>
+            Poliana Muniz
+            Deborah Steinberg
+            Cibele Kiss
+            Jaqueson da Silva
+            <br></br>
+            <br></br>
+            <span style={{'font-weight': 'bold'}}>L'insu…</span>
+            <br></br>
+            Luís Américo Valadão
+            Deborah Steinberg
+            Francisco Capoulade
+            Lauro Baldini
+            Ricardo Goldenberg
+            <br></br>
+            <br></br>
+            <span style={{'font-weight': 'bold'}}>Seminário 11: os quatro conceitos fundamentais da psicanálise</span>
+            <br></br>
+            Ana Júlia Campos
+            Joice Rodrigues Souza Honorato
+            Marcia Imaculada de Souza
+            Mônica Gobita Alayon
+            <br></br>
+            <br></br>
+            <span style={{'font-weight': 'bold'}}>3 tempos da lei</span>
+            <br></br>
+            Luís Américo Valadão
+            Rita Bonança
+            Cibele Kiss
+            Bruno de Paula
+            <br></br>
+            <br></br>
+            <span style={{'font-weight': 'bold'}}>Mais, ainda?</span>
+            <br></br>
+            Lucas Palma
+            Silvia Nogueira Cordeiro
+            Jaqueson da Silva 
+            Lívia Ciscato
+            Brunno Toledo
+            Letícia Dorigon
+          </div>
         </section>
       </Layout>
     );
