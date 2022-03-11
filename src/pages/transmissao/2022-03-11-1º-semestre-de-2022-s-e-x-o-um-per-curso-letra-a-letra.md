@@ -41,4 +41,6 @@ FREUD, S. (1905/2016).Três ensaios sobre a teoria da sexualidade. In FREUD, S. 
 
 AMBRA, P. (2021). O que É um Homem?. São Paulo: Zagodoni.
 
+Coordenação: Marta Ferreira, Daniel Mondoni e Lucas Palma
+
 <!--EndFragment-->
