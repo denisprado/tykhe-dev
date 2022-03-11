@@ -25,7 +25,7 @@ description: >
 | Nome                    | Celular         |
 | :---------------------- | :-------------- |
 | Alex Muniz Ferreira | 19 996625607 |
-| Eduardo Elias de Almeida    | 19 996313375 |
+| Eduardo Elias de Almeida    | 11 999037668 |
 
 <br/>
 <br/>
