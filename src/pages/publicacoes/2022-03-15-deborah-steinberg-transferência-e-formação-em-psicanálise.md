@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Deborah Steinberg - Transferência e formação em psicanálise
+title: Transferência e formação em psicanálise - Deborah Steinberg
 description: >-
   Este texto consiste na apresentação feita pela colega Deborah Steinberg  em
   evento do IPEP - Instituto de Pesquisa e Estudos em Psicanálise nos Espaços
